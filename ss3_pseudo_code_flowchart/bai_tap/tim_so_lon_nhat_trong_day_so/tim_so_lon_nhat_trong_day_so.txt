@@ -1,0 +1,15 @@
+BEGIN
+	INPUT N
+	INPUT  dãy gồm N giá trị
+
+	Max = a1; 
+	i = 2
+
+	WHILE (i =< n)
+	DO
+		IF (ai > Max) then Max = ai
+		END IF
+		i = i + 1
+	END DO
+	DISPLAY (Max)
+END

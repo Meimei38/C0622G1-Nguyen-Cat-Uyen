@@ -1,0 +1,5 @@
+BEGIN
+	INPUT Math, Chemistry, Physics
+	Average = (Math + Chemistry + Physics)/3
+	DISPLAY Average
+END

@@ -1,0 +1,20 @@
+BEGIN
+	INPUT Grade
+	IF Grade > = 75 then 
+		DISPLAY Loai A
+	ELSE
+		IF Grade > = 60 then
+			DISPLAY Loai B
+		ELSE
+			IF Grade > = 45 then
+				DISPLAY Loai C
+			ELSE 
+				IF Grade > = 35 then
+					DISPLAY Loai D
+				ELSE
+					DISPLAY Loai E
+				END IF
+			END IF
+		END IF
+	END IF
+END

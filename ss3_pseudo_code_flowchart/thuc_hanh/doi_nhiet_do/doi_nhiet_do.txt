@@ -1,0 +1,5 @@
+BEGIN
+	INPUT C
+	F = (9C + 160)/5
+	DISPLAY F
+END
