@@ -1,13 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="05d56e4a-488d-4855-b395-2d7cbc339c11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss4_git_html/thuc_hanh/thuc_hanh_HTML.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/form_dang_ky.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/form_don_gian_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/form_don_gian_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/khao_sat_khach_hang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/tao_bang_don_gian_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/tao_bang_don_gian_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/thuc_hanh/tao_bang_co_ban.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/thuc_hanh/tao_bang_don_gian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/thuc_hanh/tao_bang_nang_cao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/thuc_hanh/tao_form_tim_kiem_google.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,7 +69,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656661056317</updated>
-      <workItem from="1656661058754" duration="322000" />
+      <workItem from="1656661058754" duration="1577000" />
+      <workItem from="1656901849244" duration="18426000" />
     </task>
     <servers />
   </component>
@@ -51,5 +87,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1096" y="242" key="run.anything.popup" timestamp="1656918064382">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="1096" y="242" key="run.anything.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1656918064382" />
+    <state x="1103" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1656922951534">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="1103" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1656922951534" />
   </component>
 </project>

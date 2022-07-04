@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký học viên</title>
+</head>
+<body>
+<style>
+    table{
+        background-color: palegoldenrod;
+    }
+    .Main_row{
+        color: blue;
+    }
+    .header{
+        color: dodgerblue;
+        background-color: aquamarine;
+        size: 20px;
+    }
+</style>
+<table cellspacing="5px" cellspacing="5px">
+    <form>
+        <tr>
+            <td colspan="4" class="header"> <strong> ĐĂNG KÝ HỌC VIÊN </strong> </td>
+        </tr>
+        <tr>
+            <td class="Main_row"> Họ và tên</td>
+            <td colspan="2"><input type="text" placeholder="Nhập họ và tên"></td>
+        </tr>
+        <tr>
+            <td> Ngày sinh</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td class="Main_row"> Giới tính</td>
+            <td><input type="radio" value="Nam" name="gender" checked>Nam <input type="radio" value="Nữ" name="gender">Nữ<td>
+        </tr>
+        <tr>
+            <td class="Main_row"> Địa chỉ</td>
+            <td><textarea></textarea></td>
+        </tr>
+        <tr>
+            <td class="Main_row">Lớp</td>
+            <td><select name="class">
+                <option value="Chọn lớp">-Chọn lớp-</option>
+                <option value="IELTS"> IELTS</option>
+                <option value="TOEIC"> TOEIC</option>
+                <option value="COMMUNICATION"> COMMUNICATION</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td class="Main_row"> Email</td>
+            <td colspan="2"><input type="text"></td>
+        </tr>
+        <tr>
+            <td class="Main_row">Điện thoại</td>
+            <td colspan="2"><input type="text"></td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td><input type="submit" value="Đăng ký"><input type="reset" value="Nhập lại"></td>
+        </tr>
+    </form>
+</table>
+</body>
+</html>
