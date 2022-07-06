@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng máy tính</title>
+</head>
+<body>
+<style>
+    h3{
+        position: relative;
+        left: 140px;
+    }
+</style>
+<h3>Calculator</h3>
+<form>
+    <table cellpadding="2" cellspacing="2">
+        <tr>
+            <th> </th>
+            <th> Enter the first number: </th>
+            <th> </th>
+            <th> Enter the second number: </th>
+        </tr>
+        <tr>
+            <td colspan="2"><input id="First_number" type="number"></td>
+            <td colspan="2"><input id="Second_number" type="number"></td>
+        </tr>
+    </table>
+    <input type="button" onclick="Addition()" value="Addition(+)">
+    <input type="button" onclick="Subtraction()" value="Subtraction(-)">
+    <input type="button" onclick="Multiplication()" value="Multiplication(x)">
+    <input type="button" onclick="Division()" value="Division(/)">
+    <p id="result"> </p>
+</form>
+<script>
+    function Addition() {
+        let first_number= parseFloat(document.getElementById('First_number').value);
+        let second_number= parseFloat(document.getElementById('Second_number').value);
+        let Result;
+        Result = first_number + second_number;
+        document.getElementById('result').innerHTML= Result;
+    }
+    function Subtraction() {
+        let first_number= parseFloat(document.getElementById('First_number').value);
+        let second_number= parseFloat(document.getElementById('Second_number').value);
+        let Result;
+        Result = first_number - second_number;
+        document.getElementById('result').innerHTML= Result;
+    }
+    function Multiplication() {
+        let first_number= parseFloat(document.getElementById('First_number').value);
+        let second_number= parseFloat(document.getElementById('Second_number').value);
+        let Result;
+        Result = first_number*second_number;
+        document.getElementById('result').innerHTML= Result;
+    }
+    function Division() {
+        let first_number= parseFloat(document.getElementById('First_number').value);
+        let second_number= parseFloat(document.getElementById('Second_number').value);
+        let Result;
+        Result = first_number/second_number;
+        document.getElementById('result').innerHTML= Result;
+    }
+</script>
+</body>
+</html>
