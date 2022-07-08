@@ -13,36 +13,36 @@
             <th> To Currency</th>
         </tr>
         <tr style="text-align: center">
-            <td> <input type="text" id='money_in' placeholder="Enter the amount of money: "></td>
-            <td><select id="From">
+            <td> <input type="text" id='moneyIn' placeholder="Enter the amount of money: "></td>
+            <td><select id="from">
                 <option> VNĐ </option>
                 <option> USD </option> </select>
             </td>
-            <td> <select id="To">
+            <td> <select id="to">
                 <option> USD</option>
                 <option> VNĐ</option> </select>
             </td>
         </tr>
         <tr>
-            <td><input type="button" onclick="ChangeMoney()" value="Change"></td> <br>
+            <td><input type="button" onclick="changeMoney()" value="Change"></td> <br>
         </tr>
     </table>
-    <p id='Result'> </p>
+    <p id='result'> </p>
 
     <script>
-        function ChangeMoney(){
+        function changeMoney(){
 
-            let Amount = document.getElementById('money_in').value;
-            let FC=document.getElementById('From').value;
-            let TC=document.getElementById('To').value;
-            let Result;
-            if( FC =='USD' && TC =='VNĐ'){
-                Result= 'The result is: ' + (Amount*23000) + ' VNĐ';}
-            else if(FC =='VNĐ' && TC=='USD') {
-                Result= 'The result is: ' + (Amount/23000) + ' USD';}
-            else { Result= 'You are choosing the same currency for both input and output. Please choose again.'}
+            let amount = document.getElementById('moneyIn').value;
+            let fC=document.getElementById('from').value;
+            let tC=document.getElementById('to').value;
+            let result;
+            if( fC =='USD' && tC =='VNĐ'){
+                result= 'The result is: ' + (amount*23000) + ' VNĐ';}
+            else if(fC =='VNĐ' && tC=='USD') {
+                result= 'The result is: ' + (amount/23000) + ' USD';}
+            else { result= 'You are choosing the same currency for both input and output. Please choose again.'}
 
-            document.getElementById('Result').innerHTML = Result;
+            document.getElementById('result').innerHTML = result;
 
         }
 

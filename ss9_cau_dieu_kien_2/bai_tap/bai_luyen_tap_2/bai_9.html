@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra 3 số thực có phải là cạnh tam giác</title>
+</head>
+<body>
+<script>
+    let a = +prompt('Nhập vào số thực thứ nhất: ', '');
+    let b = +prompt('Nhập vào số thực thứ hai: ', '');
+    let c = +prompt('Nhập vào só thực thứ ba: ', '');
+    let tong1 = a + b;
+    let tong2 = a + c;
+    let tong3 = b + c;
+    if (isNaN(a) === false && isNaN(b) === false && isNaN(c) === false) {
+        if (a > 0 && b > 0 && c > 0) {
+            if (tong1 > c && tong2 > b && tong3 > a) {
+                alert('Đây là 3 cạnh của tam giác.');
+            } else {
+                alert('Đây không phải 3 cạnh của một tam giác.');
+            }
+        } else {
+            alert('Đây không phải 3 cạnh của một tam giác.');
+        }
+    } else {
+        alert('Không thực hiện được')
+    }
+
+</script>
+</body>
+</html>

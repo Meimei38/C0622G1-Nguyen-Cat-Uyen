@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính hoa hồng dựa trên doanh thu bán hàng</title>
+</head>
+<body>
+<!--doanh thu < 10 triệu, tiền hoa hồng 2%
+doanh thu < 15 triệu, tiền hoa hồng 3%
+doanh thu < 20 triệu, tiền hoa hồng 5%-->
+
+<script>
+    let doanhThu = parseFloat(prompt('Nhập doanh thu:', ''));
+    let hoaHong;
+    if (isNaN(doanhThu) === false) {
+        switch (true) {
+            case doanhThu < 10000000:
+                hoaHong = doanhThu * 0.02;
+                alert(hoaHong);
+                break;
+            case doanhThu < 15000000:
+                hoaHong = doanhThu * 0.03;
+                alert(hoaHong);
+                break;
+            case doanhThu < 20000000:
+                hoaHong = doanhThu * 0.05;
+                alert(hoaHong);
+                break;
+        }
+    } else {
+        alert('Không thực hiện được')
+    }
+</script>
+</body>
+</html>

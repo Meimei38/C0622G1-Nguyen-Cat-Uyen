@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diện tích hình chữ nhật</title>
+</head>
+<body>
+<script>
+    let chieuRong = +prompt('Nhập chiều rộng hình chữ nhật: ', '');
+    let chieuDai = +prompt('Nhập chiều dài hình chữ nhật: ', '');
+    if (chieuRong >= 0 && chieuDai >= 0) {
+        let donViDo = prompt('Nhập đơn vị đo: ', '');
+        let dienTich = chieuDai * chieuRong;
+        alert('Diện tích hình chữ nhật là:  ' + dienTich + ' ' + donViDo + '2');
+    } else {
+        alert('Số đo chiều dài và chiều rộng phải là số dương. Vui lòng nhập lại!');
+    }
+
+</script>
+
+</body>
+</html>

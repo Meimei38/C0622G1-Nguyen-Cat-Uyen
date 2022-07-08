@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xếp hạng học lực</title>
+</head>
+<body>
+<script>
+    let diemKiemTra = +prompt('Nhập điểm kiểm tra: ', '');
+    let diemGiuaKi = +prompt('Nhập điểm giữa kì: ', '');
+    let diemCuoiKi = +prompt('Nhập điểm cuối kì: ', '');
+    let diemTrungBinh = (diemKiemTra + diemGiuaKi * 2 + diemCuoiKi * 3) / 6;
+
+    alert('Điểm trung bình là: ' + diemTrungBinh);
+
+    if (diemTrungBinh >= 8) {
+        alert('Học lực Giỏi');
+    } else if (diemTrungBinh >= 6.5) {
+        alert('Học lực Khá');
+    } else if (diemTrungBinh >= 5) {
+        alert('Học lực Trung Bình');
+    } else if (diemTrungBinh >= 3.5) {
+        alert('Học lực Yếu');
+    } else {
+        alert('Học lực Kém');
+    }
+</script>
+</body>
+</html>

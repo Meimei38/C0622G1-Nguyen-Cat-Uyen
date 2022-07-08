@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra chia hết</title>
+</head>
+<body>
+
+<script>
+    let firstNumber = +prompt('Nhập số thứ nhất: ', '');
+    let secondNumber = +prompt('Nhập số thứ hai: ', '');
+    if (secondNumber === 0) {
+        alert('Không có phép chia cho 0')
+    } else if (firstNumber === 0) {
+        alert('0 chia cho số nào cũng bằng 0')
+    } else {
+        let mod = firstNumber % secondNumber;
+        if (mod === 0) {
+            alert('Số thứ nhất chia hết cho số thứ hai');
+        } else {
+            alert('Số thứ nhất không chia hết cho số thứ hai');
+        }
+    }
+
+</script>
+</body>
+</html>

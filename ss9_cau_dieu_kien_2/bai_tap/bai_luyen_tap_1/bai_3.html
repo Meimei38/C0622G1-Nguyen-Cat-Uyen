@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xác định số nguyên lớn hay nhỏ hơn 0</title>
+</head>
+<body>
+<script>
+    let number = prompt('Nhập 1 số nguyên: ', '');
+    let numberInteger = parseInt(number);
+
+    if (+number === 0) {
+        alert('Đây là số 0');
+    } else {
+        if (number % number === 0) {
+            if (number - numberInteger === 0) {
+                if (numberInteger > 0) {
+                    alert('Số nguyên lớn hơn 0');
+                } else if (numberInteger < 0) {
+                    alert('Số nguyên nhỏ hơn 0');
+                }
+            } else {
+                alert('Số này không phải số nguyên');
+            }
+        } else {
+            alert('Chuỗi bạn nhập không phải là số');
+        }
+    }
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính diện tích tam giác vuông</title>
+</head>
+<body>
+<script>
+    let canhGocVuong1 = +prompt('Nhập số đo cạnh góc vuông thứ nhất: ', '');
+    let canhGocVuong2 = +prompt('Nhập số đo cạnh góc vuông thứ hai: ', '');
+    if (canhGocVuong1 >= 0 && canhGocVuong2 >= 0) {
+        let donViDo = prompt('Nhập đơn vị đo: ', '');
+        let dienTichHinhTamGiacVuong = (canhGocVuong1 * canhGocVuong2) / 2;
+        alert('Diện tích tam giác vuông là: ' + dienTichHinhTamGiacVuong + ' ' + donViDo + '2');
+    } else {
+        alert('Số đo 2 cạnh hình vuông phải là số dương. Vui lòng nhập lại!');
+    }
+
+</script>
+
+</body>
+</html>

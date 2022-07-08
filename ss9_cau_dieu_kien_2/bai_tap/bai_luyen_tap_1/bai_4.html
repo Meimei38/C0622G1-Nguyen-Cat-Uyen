@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tìm số lớn nhất trong 3 số nguyên</title>
+</head>
+<body>
+<script>
+
+    let firstNumber= +prompt('Nhập số nguyên thứ nhất: ','');
+    let secondNumber= +prompt('Nhập số nguyên thứ hai: ','');
+    let thirdNumber= +prompt('Nhập số thứ ba: ','');
+
+    if(firstNumber > secondNumber){
+        if(firstNumber > thirdNumber){
+            alert(firstNumber + ' là số lớn nhất');
+        }else {
+            alert(thirdNumber + ' là số lớn nhất');
+        }
+        }else if(secondNumber<thirdNumber){
+        alert(thirdNumber + ' là số lớn nhất');
+    }else {
+        alert(secondNumber + ' là số lớn nhất');
+    }
+</script>
+</body>
+</html>

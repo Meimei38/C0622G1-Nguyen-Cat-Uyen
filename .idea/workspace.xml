@@ -20,17 +20,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05d56e4a-488d-4855-b395-2d7cbc339c11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/form_dang_ky.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/form_don_gian_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/form_don_gian_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/khao_sat_khach_hang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/tao_bang_don_gian_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/tao_bang_don_gian_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/thuc_hanh/tao_bang_co_ban.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/thuc_hanh/tao_bang_don_gian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/thuc_hanh/tao_bang_nang_cao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/thuc_hanh/tao_form_tim_kiem_google.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_dieu_kien_1/thuc_hanh/kiem_tra_nam_nhuan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_dieu_kien_1/thuc_hanh/luyen_tap_if_else.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_dieu_kien_1/thuc_hanh/luyen_tap_if_else_if.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_dieu_kien_1/thuc_hanh/luyen_tap_switch_case_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_dieu_kien_1/thuc_hanh/luyen_tap_switch_case_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/cau_lenh_switch_case.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/tinh_chi_so_can_nang_co_the.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/tao_bang_nang_cao/tao_bang_nang_cao_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/tao_bang_nang_cao/tao_bang_nang_cao_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss6_tong_quan_js/thuc_hanh/thuc_hanh_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu_va_toan_tu/bai_tap/bien_kieu_du_lieu_va_toan_tu/bai_tap_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu_va_toan_tu/bai_tap/bien_kieu_du_lieu_va_toan_tu/bai_tap_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu_va_toan_tu/bai_tap/bien_kieu_du_lieu_va_toan_tu/bai_tap_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu_va_toan_tu/bai_tap/bien_kieu_du_lieu_va_toan_tu/bai_tap_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu_va_toan_tu/bai_tap/chuyen_doi_tien_te.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu_va_toan_tu/bai_tap/chuyen_doi_tien_te.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu_va_toan_tu/bai_tap/ung_dung_may_tinh/ung_dung_may_tinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu_va_toan_tu/bai_tap/ung_dung_may_tinh/ung_dung_may_tinh.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +61,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -70,7 +92,16 @@
       <option name="presentableId" value="Default" />
       <updated>1656661056317</updated>
       <workItem from="1656661058754" duration="1577000" />
-      <workItem from="1656901849244" duration="18426000" />
+      <workItem from="1656901849244" duration="28383000" />
+      <workItem from="1656990799746" duration="770000" />
+      <workItem from="1657001499344" duration="793000" />
+      <workItem from="1657072234089" duration="22647000" />
+      <workItem from="1657119123792" duration="1551000" />
+      <workItem from="1657122417574" duration="445000" />
+      <workItem from="1657124850345" duration="12000" />
+      <workItem from="1657156274887" duration="605000" />
+      <workItem from="1657162718860" duration="36627000" />
+      <workItem from="1657268915081" duration="5833000" />
     </task>
     <servers />
   </component>
@@ -90,13 +121,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1096" y="242" key="run.anything.popup" timestamp="1656918064382">
+    <state x="1096" y="242" key="run.anything.popup" timestamp="1657274404404">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="1096" y="242" key="run.anything.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1656918064382" />
-    <state x="1103" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1656922951534">
+    <state x="1096" y="242" key="run.anything.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1657274404404" />
+    <state x="1103" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1657264879030">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="1103" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1656922951534" />
+    <state x="1103" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1657264879030" />
   </component>
 </project>

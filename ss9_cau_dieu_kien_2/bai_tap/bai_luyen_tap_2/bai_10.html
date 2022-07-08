@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính giá điện</title>
+</head>
+<body>
+<!--Bậc 1	Cho kWh từ 0 - 50	1.678
+Bậc 2	Cho kWh từ 51 - 100     1.734
+Bậc 3	Cho kWh từ 101 - 200	2.014
+Bậc 4	Cho kWh từ 201 trở lên	2.536-->
+
+<script>
+    let nhap = +prompt('Nhập số chữ điện tiêu dùng trong tháng: ', '');
+    let tongTienDien;
+    let bac1 = 1678;
+    let bac2 = 1734;
+    let bac3 = 2014;
+    let bac4 = 2536;
+
+    if (isNaN(nhap) === true) {
+        alert('Không thực hiện được')
+    } else if (nhap < 50) {
+        tongTienDien = nhap * bac1;
+        alert(tongTienDien);
+    } else if (nhap < 100) {
+        tongTienDien = (nhap - 50) * bac2 + 50 * bac1;
+        alert(tongTienDien);
+    } else if (nhap < 200) {
+        tongTienDien = (nhap - 100) * bac3 + 50 * (bac2 + bac1);
+        alert(tongTienDien);
+    } else {
+        tongTienDien = (nhap - 200) * bac4 + 100 * bac3 + 50 * (bac2 + bac1);
+        alert(tongTienDien);
+
+    }
+</script>
+</body>
+</html>

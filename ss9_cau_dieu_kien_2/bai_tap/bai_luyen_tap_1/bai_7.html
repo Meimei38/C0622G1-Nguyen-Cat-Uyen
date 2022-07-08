@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính cước điện thoại</title>
+</head>
+<body>
+<!--Phí thuê bao bắt buộc là 25 nghìn.
+    600 đồng cho mỗi gọi của 50 phút đầu tiên.
+    400 đồng cho mỗi phút gọi của 150 phút tiếp theo.
+    200 đồng cho bất kỳ mỗi phút nào sau 200 phút đầu tiên.-->
+<script>
+    let tongPhutGoi = +prompt('Nhập tổng số phút gọi điện: ', '');
+    let tienBac1 = 600;
+    let tienBac2 = 400;
+    let tienBac3 = 200;
+    let tongTienCuoc;
+    const thueBao = 25000;
+
+    if (isNaN(tongPhutGoi) === false) {
+        if (tongPhutGoi <= 50) {
+            tongTienCuoc = tongPhutGoi * tienBac1 + thueBao;
+            alert(tongTienCuoc);
+        } else if (tongPhutGoi <= 200) {
+            tongTienCuoc = (tongPhutGoi - 50) * tienBac2 + 50 * tienBac1 + thueBao;
+            alert(tongTienCuoc);
+        } else {
+            tongTienCuoc = (tongPhutGoi - 200) * tienBac3 + (150 * tienBac2) + (50 * tienBac1);
+            alert(tongTienCuoc);
+        }
+    } else {
+        alert('Không thực hiện được');
+    }
+</script>
+</body>
+</html>

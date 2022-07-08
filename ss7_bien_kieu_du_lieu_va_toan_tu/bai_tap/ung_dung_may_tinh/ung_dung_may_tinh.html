@@ -21,8 +21,8 @@
             <th> Enter the second number: </th>
         </tr>
         <tr>
-            <td colspan="2"><input id="First_number" type="number"></td>
-            <td colspan="2"><input id="Second_number" type="number"></td>
+            <td colspan="2"><input id="firstNumber" type="number"></td>
+            <td colspan="2"><input id="secondNumber" type="number"></td>
         </tr>
     </table>
     <input type="button" onclick="Addition()" value="Addition(+)">
@@ -33,31 +33,31 @@
 </form>
 <script>
     function Addition() {
-        let first_number= parseFloat(document.getElementById('First_number').value);
-        let second_number= parseFloat(document.getElementById('Second_number').value);
+        let firstNumber= parseFloat(document.getElementById('firstNumber').value);
+        let secondNumber= parseFloat(document.getElementById('secondNumber').value);
         let Result;
-        Result = first_number + second_number;
+        Result = firstNumber + secondNumber;
         document.getElementById('result').innerHTML= Result;
     }
     function Subtraction() {
-        let first_number= parseFloat(document.getElementById('First_number').value);
-        let second_number= parseFloat(document.getElementById('Second_number').value);
+        let firstNumber= parseFloat(document.getElementById('firstNumber').value);
+        let secondNumber= parseFloat(document.getElementById('secondNumber').value);
         let Result;
-        Result = first_number - second_number;
+        Result = firstNumber - secondNumber;
         document.getElementById('result').innerHTML= Result;
     }
     function Multiplication() {
-        let first_number= parseFloat(document.getElementById('First_number').value);
-        let second_number= parseFloat(document.getElementById('Second_number').value);
+        let firstNumber= parseFloat(document.getElementById('firstNumber').value);
+        let secondNumber= parseFloat(document.getElementById('secondNumber').value);
         let Result;
-        Result = first_number*second_number;
+        Result = firstNumber*secondNumber;
         document.getElementById('result').innerHTML= Result;
     }
     function Division() {
-        let first_number= parseFloat(document.getElementById('First_number').value);
-        let second_number= parseFloat(document.getElementById('Second_number').value);
+        let firstNumber= parseFloat(document.getElementById('firstNumber').value);
+        let secondNumber= parseFloat(document.getElementById('secondNumber').value);
         let Result;
-        Result = first_number/second_number;
+        Result = firstNumber/secondNumber;
         document.getElementById('result').innerHTML= Result;
     }
 </script>

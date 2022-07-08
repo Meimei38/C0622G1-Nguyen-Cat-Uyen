@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính thuế thu nhập cá nhân</title>
+</head>
+<body>
+<script>
+    let tongThuNhap = +prompt('Nhập tổng thu nhập: ', '');
+    let tienThue;
+    if (isNaN(tongThuNhap) === false) {
+        if (tongThuNhap <= 5000000) {
+            tienThue = 0;
+            alert('Lương từ 5 triệu đồng trở xuống không phải nộp thuế. Tiền thuế = '+ tienThue);
+        } else if (tongThuNhap <= 10000000) {
+            tienThue = tongThuNhap * 0.1;
+            alert(tienThue);
+        } else if (tongThuNhap <= 20000000) {
+            tienThue = tongThuNhap * 0.2;
+            alert(tienThue);
+        } else if (tongThuNhap > 20000000) {
+            tienThue = tongThuNhap * 0.3;
+            alert(tienThue);
+        }
+    } else {
+        alert('Không thực hiện được');
+    }
+</script>
+</body>
+</html>

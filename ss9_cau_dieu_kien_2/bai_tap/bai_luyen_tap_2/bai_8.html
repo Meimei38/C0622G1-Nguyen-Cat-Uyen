@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra số nhập vào có phải tuổi không</title>
+</head>
+<body>
+<script>
+    let number = prompt('Nhập vào tuổi: ', '');
+    let numberInteger = parseInt(number);
+
+    if (number % number === 0 || number === '0') {
+        if (number - numberInteger === 0) {
+            if (numberInteger < 120 && numberInteger > 0) {
+                alert('Đây là số tuổi người');
+            } else {
+                alert('Đây không phải tuổi người. Vui lòng nhập lại!');
+            }
+        } else {
+            alert('Đây không phải là tuổi của một người vì không phải số nguyên. Vui lòng nhập lại!');
+        }
+    } else {
+        alert('Tuổi của một người là 1 số nguyên, không phải là 1 chuỗi. Vui lòng nhập lại!');
+    }
+
+</script>
+</body>
+</html>

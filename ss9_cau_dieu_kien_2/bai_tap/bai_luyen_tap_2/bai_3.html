@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính diện tích hình vuông</title>
+</head>
+<body>
+<script>
+    let canh = +prompt('Nhập chiều dài cạnh hình vuông', '');
+    let donViDo = prompt('Nhập đơn vị đo: ', '');
+    if (canh >= 0) {
+        let dienTich = Math.pow(canh, 2);
+        alert('Diện tích hình vuông là: ' + dienTich + ' ' + donViDo + '2');
+    } else {
+        alert('Số đo cạnh hình vuông phải là một số dương. Vui lòng nhập lại!');
+    }
+
+</script>
+</body>
+</html>
