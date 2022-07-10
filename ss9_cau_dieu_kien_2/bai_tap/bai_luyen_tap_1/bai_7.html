@@ -17,7 +17,7 @@
     let tongTienCuoc;
     const thueBao = 25000;
 
-    if (isNaN(tongPhutGoi) === false) {
+    if (!isNaN(tongPhutGoi)) {
         if (tongPhutGoi <= 50) {
             tongTienCuoc = tongPhutGoi * tienBac1 + thueBao;
             alert(tongTienCuoc);

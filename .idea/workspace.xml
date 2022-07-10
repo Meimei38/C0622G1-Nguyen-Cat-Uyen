@@ -20,38 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05d56e4a-488d-4855-b395-2d7cbc339c11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss8_cau_dieu_kien_1/thuc_hanh/kiem_tra_nam_nhuan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss8_cau_dieu_kien_1/thuc_hanh/luyen_tap_if_else.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss8_cau_dieu_kien_1/thuc_hanh/luyen_tap_if_else_if.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss8_cau_dieu_kien_1/thuc_hanh/luyen_tap_switch_case_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss8_cau_dieu_kien_1/thuc_hanh/luyen_tap_switch_case_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/cau_lenh_switch_case.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/tinh_chi_so_can_nang_co_the.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/tao_bang_nang_cao/tao_bang_nang_cao_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/tao_bang_nang_cao/tao_bang_nang_cao_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss6_tong_quan_js/thuc_hanh/thuc_hanh_1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu_va_toan_tu/bai_tap/bien_kieu_du_lieu_va_toan_tu/bai_tap_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu_va_toan_tu/bai_tap/bien_kieu_du_lieu_va_toan_tu/bai_tap_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu_va_toan_tu/bai_tap/bien_kieu_du_lieu_va_toan_tu/bai_tap_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu_va_toan_tu/bai_tap/bien_kieu_du_lieu_va_toan_tu/bai_tap_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu_va_toan_tu/bai_tap/chuyen_doi_tien_te.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu_va_toan_tu/bai_tap/chuyen_doi_tien_te.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu_va_toan_tu/bai_tap/ung_dung_may_tinh/ung_dung_may_tinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu_va_toan_tu/bai_tap/ung_dung_may_tinh/ung_dung_may_tinh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_11.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_9.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +54,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
+  <component name="RunManager">
+    <configuration name="demo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module 1/ss9_cau_dieu_kien_2/demo.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.demo.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -102,6 +85,9 @@
       <workItem from="1657156274887" duration="605000" />
       <workItem from="1657162718860" duration="36627000" />
       <workItem from="1657268915081" duration="5833000" />
+      <workItem from="1657345376609" duration="2025000" />
+      <workItem from="1657464075482" duration="3000" />
+      <workItem from="1657464087064" duration="729000" />
     </task>
     <servers />
   </component>
@@ -121,6 +107,70 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1899" height="344" key="GridCell.Tab.0.bottom" timestamp="1657425977335">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1657425977335" />
+    <state width="1899" height="344" key="GridCell.Tab.0.center" timestamp="1657425977335">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1657425977335" />
+    <state width="1899" height="344" key="GridCell.Tab.0.left" timestamp="1657425977335">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1657425977335" />
+    <state width="1899" height="344" key="GridCell.Tab.0.right" timestamp="1657425977335">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1657425977335" />
+    <state width="1899" height="344" key="GridCell.Tab.1.bottom" timestamp="1657425977335">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1657425977335" />
+    <state width="1899" height="344" key="GridCell.Tab.1.center" timestamp="1657425977335">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1657425977335" />
+    <state width="1899" height="344" key="GridCell.Tab.1.left" timestamp="1657425977335">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1657425977335" />
+    <state width="1899" height="344" key="GridCell.Tab.1.right" timestamp="1657425977335">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1657425977335" />
+    <state width="1899" height="344" key="GridCell.Tab.2.bottom" timestamp="1657425977336">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.2.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1657425977336" />
+    <state width="1899" height="344" key="GridCell.Tab.2.center" timestamp="1657425977336">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.2.center/0.0.1920.1032@0.0.1920.1032" timestamp="1657425977336" />
+    <state width="1899" height="344" key="GridCell.Tab.2.left" timestamp="1657425977336">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.2.left/0.0.1920.1032@0.0.1920.1032" timestamp="1657425977336" />
+    <state width="1899" height="344" key="GridCell.Tab.2.right" timestamp="1657425977336">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.2.right/0.0.1920.1032@0.0.1920.1032" timestamp="1657425977336" />
+    <state width="1899" height="344" key="GridCell.Tab.3.bottom" timestamp="1657425977336">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.3.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1657425977336" />
+    <state width="1899" height="344" key="GridCell.Tab.3.center" timestamp="1657425977336">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.3.center/0.0.1920.1032@0.0.1920.1032" timestamp="1657425977336" />
+    <state width="1899" height="344" key="GridCell.Tab.3.left" timestamp="1657425977336">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.3.left/0.0.1920.1032@0.0.1920.1032" timestamp="1657425977336" />
+    <state width="1899" height="344" key="GridCell.Tab.3.right" timestamp="1657425977336">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.3.right/0.0.1920.1032@0.0.1920.1032" timestamp="1657425977336" />
     <state x="1096" y="242" key="run.anything.popup" timestamp="1657274404404">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>

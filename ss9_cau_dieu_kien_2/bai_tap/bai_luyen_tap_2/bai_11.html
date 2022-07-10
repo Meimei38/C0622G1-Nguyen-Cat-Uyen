@@ -8,7 +8,7 @@
 <script>
     let tongThuNhap = +prompt('Nhập tổng thu nhập: ', '');
     let tienThue;
-    if (isNaN(tongThuNhap) === false) {
+    if (!isNaN(tongThuNhap)) {
         if (tongThuNhap <= 5000000) {
             tienThue = 0;
             alert('Lương từ 5 triệu đồng trở xuống không phải nộp thuế. Tiền thuế = '+ tienThue);
