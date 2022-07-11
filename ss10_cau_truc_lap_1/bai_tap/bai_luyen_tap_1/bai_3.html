@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3 - Hiển thị dãy số</title>
+</head>
+<body>
+<!--Hiển thị ra 20 số trong dãy fibonacci đầu tiên.-->
+<script>
+    let soThu1 = 0;
+    let soThu2 = 1;
+    let soTiepTheo = 1;
+    for (let i = 0; i < 20; i++) {
+        document.write(soThu1 + '<br>');
+        soTiepTheo = soThu1 + soThu2
+        soThu1 = soThu2;
+        soThu2 = soTiepTheo;
+    }
+</script>
+</body>
+</html>
