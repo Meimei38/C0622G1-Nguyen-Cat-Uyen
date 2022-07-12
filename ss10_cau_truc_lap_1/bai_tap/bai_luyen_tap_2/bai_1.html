@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1 - In dãy fibonacci</title>
+</head>
+<body>
+<script>
+    let i = +prompt('Nhập số phần tử của dãy fibonacci mà bạn muốn in ra: ', '');
+    let soThu1 = 0;
+    let soThu2 = 1;
+    let soTiepTheo = 1;
+
+    for (let j = 0; j<=i; j++) {
+        document.write(soThu1 + '<br>');
+        soTiepTheo = soThu1 + soThu2
+        soThu1 = soThu2;
+        soThu2 = soTiepTheo;
+    }
+
+</script>
+</body>
+</html>

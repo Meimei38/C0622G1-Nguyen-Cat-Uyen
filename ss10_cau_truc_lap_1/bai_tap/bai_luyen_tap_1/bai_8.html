@@ -16,8 +16,26 @@ Nâng cấp game "Hãy thử đoán xem!"
 Nếu bằng thì hiển thị thông báo chúc mừng và kết thúc lượt chơi
 Nếu lớn hơn hoặc bé thua thì hiển thị thông báo lớn hơn hay bé thua và cho phép người dùng lựa chọn lại.
 Chú ý: Người dùng chỉ được lựa chọn tối đa ba lần-->
+<input type="button" value="Chơi" onclick="doanSo()">
 <script>
-
+    function doanSo() {
+        let soNhapVao1 = +prompt("Số bạn muốn đoán trong khoảng lớn nhất là bào nhiêu ? ");
+        let soNhapVao2;
+        let soNgauNhien = Math.floor(Math.random() * soNhapVao1);
+        console.log(soNgauNhien);
+        for (let i = 0; i < 4; i++) {
+            soNhapVao2 = +prompt("Nhập số bạn đoán")
+            if (soNgauNhien === soNhapVao2) {
+                alert('Bạn đã đoán đúng');
+            } else if (soNhapVao2 > soNgauNhien) {
+                alert("Số bạn đoán lớn hơn");
+            } else if (soNhapVao2 < soNgauNhien) {
+                alert("Số bạn đoán nhỏ hơn");
+            }
+        }
+        alert('Bạn đã hết số lượt đoán');
+        document.write('Bạn đã hết số lượt đoán');
+    }
 </script>
 </body>
 </html>
