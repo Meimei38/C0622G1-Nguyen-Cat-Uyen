@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4 - Đếm số từ trong chuỗi</title>
+</head>
+<body>
+<script>
+    str = prompt('Nhập 1 câu bất kỳ: ');
+    str = str.trim();
+    let arr = [];
+    let count = 0;
+
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] !== ' ' && str[i + 1] === ' ') {
+            count += 1;
+            arr.push(str[i]);
+        }
+    }
+
+    if (str[str.length - 1]) {
+        count += 1;
+    }
+
+    alert(count);
+    alert(str[str.length - 1]);
+</script>
+</body>
+</html>
