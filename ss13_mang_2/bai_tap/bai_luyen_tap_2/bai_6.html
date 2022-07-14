@@ -7,7 +7,13 @@
 <body>
 <!--Viết chương trình nhập vào một mảng ký tự, tìm tất cả các ký tự trong mảng là (-) và thay thế các ký tự này bởi ký tự ( _ )-->
 <script>
-    
+    let arr = ['h', '-', 'e', '-', 'l', 'l', '-', 'o', '-', 'w', '-', 'o', '-', 'r', '-', 'l', 'd'];
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === '-') {
+            arr.splice(i, 1, '_');
+        }
+    }
+    document.write(arr.join(''));
 </script>
 </body>
 </html>
