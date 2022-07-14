@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5 - Đếm số nguyên âm</title>
+</head>
+<body>
+<!--Viết chương trình đếm số nguyên âm trong một chuỗi-->
+<script>
+    let arr = [];
+    let soGiaTri = +prompt('Nhập số giá trị của dãy số: ', '');
+    for (let i = 0; i < soGiaTri; i++) {
+        arr.push(prompt('Nhập 1 số nguyên: ', ''));
+    }
+    let nguyenAm = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] < 0) {
+            nguyenAm++;
+        }
+    }
+    document.write('Dãy bạn đã nhập là: ' + arr + '</br>');
+    document.write('Số các phần tử có giá trị âm là: ' + nguyenAm);
+</script>
+</body>
+</html>

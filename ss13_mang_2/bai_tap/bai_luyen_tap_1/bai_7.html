@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 7 - Xóa V khỏi mảng</title>
+</head>
+<body>
+<!--Viết chương trình khởi tạo/nhập vào một mảng số nguyên gồm 10 phần tử, nhập/tạo phần tử số nguyên V.
+Chương trình kiểm tra xem V có thuộc mảng đã cho không, nếu V thuộc mảng đã cho xoá V khỏi mảng
+(Bản chất việc xoá ở đây tức là dịch phần tử ở bên phải V sang vị trí của V, và gán 0 cho phần tử cuối cùng của mảng)-->
+<script>
+
+    let arr = [];
+    for (let i = 0; i < 10; i++) {
+        arr.push(prompt('Enter an integer: ', ''));
+    }
+    document.write('Your integer series is: ' + arr + '</br>');
+    let v = prompt('Enter V: ');
+    if (arr.indexOf(v) !== -1) {
+        let a = arr.indexOf(v);
+
+        for (let i = a; i < arr.length; i++) {
+            arr[i] = arr[i + 1];
+        }
+
+        arr[arr.length - 1] = 0;
+        document.write('Dãy sau khi xóa V là: ' + arr);
+
+    } else {
+        document.write('V is not in the array.')
+    }
+
+</script>
+</body>
+</html>

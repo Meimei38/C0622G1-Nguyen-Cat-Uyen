@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Từ điển</title>
+</head>
+<body>
+<label><input type="text" placeholder="Nhập từ: " id="input"></label>
+<label><input type="button" value="Dịch Anh - Việt" onclick="anhViet()"></label>
+<label><input type="button" value="Dịch Việt - Anh" onclick="vietAnh()"></label>
+<p id="result"></p>
+
+<script>
+    function anhViet() {
+        let tuTiengViet = ['cá hồi nước mặn', 'cá hồi nước ngọt', 'cá bơn', 'cá mòi', 'cá thu', 'cá tuyết', 'cá trích', 'cá trồng', 'cá ngừ'];
+        let tuTiengAnh = ['salmon', 'trout', 'sole', 'sardine', 'mackerel', 'cod', 'herring', 'anchovy', 'tuna'];
+        let result;
+        let input = document.getElementById('input').value.toLowerCase();
+        let i;
+        if (tuTiengAnh.indexOf(input) !== -1) {
+            i = tuTiengAnh.indexOf(input);
+            result = tuTiengViet[i];
+        } else {
+            result = 'Không tim thấy từ này';
+        }
+        document.getElementById('result').innerHTML = result;
+    }
+
+    function vietAnh() {
+
+        let tuTiengViet = ['Cá hồi nước mặn', 'Cá hồi nước ngọt', 'Cá bơn', 'Cá mòi', 'Cá thu', 'Cá tuyết', 'Cá trích', 'Cá trồng', 'Cá ngừ'];
+        let tuTiengAnh = ['Salmon', 'Trout', 'Sole', 'Sardine', 'Mackerel', 'Cod', 'Herring', 'Anchovy', 'Tuna'];
+        let result;
+        let input = document.getElementById('input').value.toLowerCase();
+        let i;
+        if (tuTiengViet.indexOf(input) !== -1) {
+            i = tuTiengViet.indexOf(input);
+            result = tuTiengAnh[i];
+        } else {
+            result = 'Không tim thấy từ này';
+        }
+        document.getElementById('result').innerHTML = result;
+
+    }
+
+</script>
+</body>
+</html>

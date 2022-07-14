@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1 - Khởi tạo mảng số nguyên. </title>
+</head>
+<body>
+<!--Viết chương trình khởi tạo mảng số nguyên gồm 10 phần tử.
+Chương trình thực hiện tính và hiển thị xem có bao nhiêu số nguyên lớn hơn, nhỏ hơn, hoặc bằng 10.-->
+<script>
+    let input = prompt("Nhập 10 số nguyên").split(",");
+    let smaller10 = [];
+    let bigger10 = [];
+    let equal10 = [];
+
+
+    for (let i = 0; i <= 10; i++) {
+        if (input[i] > 10) {
+            bigger10.push(input[i]);
+        } else if (input[i] < 10) {
+            smaller10.push(input[i]);
+        } else {
+            equal10.push(input[i]);
+        }
+    }
+    document.write('Các số nhỏ hơn 10 là: ' + smaller10.join(' , ') + '</br>');
+    document.write('Các số lớn hơn 10 là: ' + bigger10.join(' , ') + '</br>');
+    document.write('Có ' + equal10.length + ' số 10 trong dãy.');
+</script>
+</body>
+</html>

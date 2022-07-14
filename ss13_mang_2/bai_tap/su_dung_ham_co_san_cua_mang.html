@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sử dụng hàm có sẵn của mảng</title>
+</head>
+<body>
+
+<script>
+
+    /*    Bài 1:
+        Viết một chương trình Javascript để nối tất cả các phần tử trong một mảng chuỗi lại với nhau.
+        Ví dụ có mảng chuỗi như sau: myColor = ["Red", "Green", "White", "Black"];
+        Sau khi thực thi chương trình sẽ trả về dạng như sau :
+            "Red,Green,White,Black"*/
+
+    myColor = ["Red", "Green", "White", "Black"];
+    document.write(myColor.toString() + '</br>');
+    document.write(myColor.join() + '</br>');
+    document.write(myColor.join(' + ') + '</br>');
+
+    /*    Bài 2:
+        Viết một chương trình nhận một số nhập vào và chèn dấu (-) giữa 2  số chẵn.
+        Ví dụ nếu bạn nhập vào 025468 thì kết quả của chương trình sẽ là 0-254-6-8.*/
+
+    let number = prompt('Nhập số vào đây: ', '');
+    let str = number.toString();
+    let result = [str[0]];
+    for (let i = 1; i < str.length; i++) {
+        if (str[i - 1] % 2 === 0 && str[i] % 2 === 0) {
+            result.push('-' + str[i]);
+        } else {
+            result.push(str[i]);
+        }
+    }
+    document.write(result.join('') + '</br>');
+
+    /*    Bài 3: Viết một chương trình nhập vào một chuỗi và chuyển các ký tự chữ thường trong chuỗi vừa nhập sang thành dạng chữ hoa.
+        Ví dụ: nếu bạn nhập vào chuỗi 'The Quick Brown Fox' kết quả của chương trình là 'tHE qUICK bROWN fOX'.*/
+
+    let input = prompt('Nhập vào một chuỗi bất kì: ', '');
+    let upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    let lowerCase = 'abcdefghijklmnopqrstuvwxyz';
+    let final = [];
+
+    for (let i = 0; i < input.length; i++) {
+        if (upperCase.indexOf(input[i]) !== -1) {
+            final.push(input[i].toLowerCase());
+        } else if (lowerCase.indexOf(input[i]) !== 0) {
+            final.push(input[i].toUpperCase());
+        } else {
+            final.push(input[i]);
+        }
+    }
+    document.write(final.join(''));
+
+
+</script>
+</body>
+</html>

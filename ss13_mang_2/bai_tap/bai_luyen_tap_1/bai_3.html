@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3 - Tính giá trị trung bình</title>
+</head>
+<body>
+<!--Viết chương trình khởi tạo mảng số nguyên.
+Hiển hiện giá trị lớn nhất trong mảng đó.
+In ra giá trị trung bình của các phần tử trong mảng.-->
+<script>
+    let arr = [];
+    let soGiaTri = +prompt('Nhập số giá trị của dãy số: ', '');
+    for (let i = 0; i < soGiaTri; i++) {
+        arr.push(prompt('Nhập 1 số nguyên: ', ''));
+    }
+
+    let tong = 0;
+    let trungBinh = 0;
+    for (let i = 0; i < arr.length; i++) {
+        tong += parseInt(arr[i]);
+        trungBinh = tong / arr.length;
+    }
+    document.write('Dãy bạn vừa nhập là: ' + arr.join(', ') + '</br>');
+    document.write('Trung bình cộng các số trong dãy là: ' + trungBinh);
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 8 - Sắp xếp giảm dần</title>
+</head>
+<body>
+<!--Viết chương trình khởi tạo/nhập vào một mảng số nguyên gồm 10 phần tử.
+Chương trình sắp xếp mảng theo thứ tự giảm dần và hiển thị ra mảng đã được sắp xếp.-->
+<script>
+    arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = i + 1; j < arr.length ; j++) {
+            if (arr[i] < arr[j]) {
+                let b = arr[i];
+                arr[i] = arr[j];
+                arr[j] = b;
+            }
+        }
+    }
+    document.write(arr);
+</script>
+</body>
+</html>
