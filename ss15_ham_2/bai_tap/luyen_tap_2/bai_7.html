@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 7 - Đổi chỗ 2 số nguyên</title>
+</head>
+<body>
+<!--Viết hàm truyền vào 2 số nguyên bất kì, thực hiện đổi chỗ hai số nguyên đó.-->
+<script>
+    let soThuNhat = prompt('Nhập số thứ nhất: ');
+    let soThuHai = prompt('Nhập số thứ hai: ');
+    let result = chuyenViTri(soThuNhat, soThuHai);
+    document.write('2 số sau khi đổi vị trí: ' + result);
+
+    function chuyenViTri(num1, num2) {
+        let arr = [num1, num2];
+        let bien;
+        bien = arr[0]
+        arr[0] = arr[1];
+        arr[1] = bien;
+        return arr;
+
+    }
+</script>
+</body>
+</html>

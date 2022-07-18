@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3 - Tình giai thừa</title>
+</head>
+<body>
+<!--Viết hàm tính giai thừa của một số nguyên bất kỳ được đưa vào. Gọi hàm vừa xây dựng được.-->
+<script>
+    inputNumber = +prompt('Nhập số: ');
+    result = tinhGiaiThua(inputNumber);
+    document.write('Giai thừa của ' + inputNumber + ' là: ' + result);
+
+    function tinhGiaiThua(num) {
+        let giaiThua = 1;
+        for (let i = 1; i <= num; i++) {
+            giaiThua *= i;
+        }
+        return giaiThua;
+    }
+</script>
+</body>
+</html>

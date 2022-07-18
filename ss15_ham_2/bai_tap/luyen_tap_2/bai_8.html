@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 8 - Đảo ngược mảng số nguyên</title>
+</head>
+<body>
+<!--Viết hàm truyền vào mảng số nguyên bất kỳ, sau đó đảo ngược mảng số nguyên đó.-->
+<script>
+    let inputNumber;
+    let arr = [];
+    let result;
+    let soPhanTu=prompt('Nhập vào số phần tử của mảng: ');
+    for (let i = 1; i <= soPhanTu; i++) {
+        inputNumber = prompt('Nhập 1 số: ');
+        arr.push(inputNumber);
+    }
+    document.write('Dãy bạn nhập vào là: ' + arr + '</br>');
+    result = daoNguocMang(arr);
+    document.write(result);
+
+    function daoNguocMang(array) {
+        for (let i = 0; i < array.length / 2; i++) {
+            let replaced = array[i];
+            array[i] = array[array.length - 1 - i];
+            array[array.length - 1 - i] = replaced;
+        }
+        return array;
+
+    }
+</script>
+</body>
+</html>

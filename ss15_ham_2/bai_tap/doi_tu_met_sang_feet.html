@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đổi từ mét sang feet</title>
+</head>
+<body>
+<script>
+    let inputMeter = prompt('Nhập số mét: ');
+    let inputFoot = prompt('Nhập số foot: ');
+    let result1 = changeMeterToFoot(inputMeter);
+    document.write(inputMeter + ' meter = ' + result1 + ' foot' + '</br>');
+    let result2 = changeFootToMeter(inputFoot);
+    document.write(inputFoot + ' foot = ' + result2 + 'meter' + '</br>');
+
+    function changeMeterToFoot(num) {
+        let resultFoot = 3.279 * num;
+        return resultFoot;
+    }
+
+    function changeFootToMeter(num) {
+        let resultMeter = 0.305 * num;
+        return resultMeter;
+    }
+</script>
+</body>
+</html>

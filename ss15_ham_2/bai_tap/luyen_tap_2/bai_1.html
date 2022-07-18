@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1 - Tính bình phương của 1 số</title>
+</head>
+<body>
+<!--Viết hàm tính bình phương của một số bất kỳ được đưa vào. Gọi hàm vừa xây dựng được.-->
+<script>
+    let numberInput = prompt('Nhập 1 số: ');
+    result = tinhBinhPhuong(numberInput);
+    document.write(result);
+
+    function tinhBinhPhuong(num) {
+        let output;
+        output = Math.pow(num, 2);
+        return output;
+    }
+</script>
+</body>
+</html>

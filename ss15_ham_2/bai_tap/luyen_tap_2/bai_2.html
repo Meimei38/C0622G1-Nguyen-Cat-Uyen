@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2 - Tính chu vi, diện tích hình tròn</title>
+</head>
+<body>
+<!--Viết hàm tính diện tích, hàm tính chu vi hình tròn. Gọi hàm vừa xây dựng được-->
+<script>
+    num = prompt('Nhập bán kình hình tròn: ');
+    let chuVi = tinhChuVi(num);
+    let dienTich = tinhDienTich(num);
+    document.write('Chu vi đường tròn là: ' + chuVi + '</br>');
+    document.write('Diện tích đường tròn là: ' + dienTich + '</br>');
+
+    function tinhChuVi(banKinh) {
+        let C;
+        C = banKinh * 2 * Math.PI.toFixed(3);
+        return C;
+    }
+
+    function tinhDienTich(banKinh) {
+        let S;
+        S = Math.pow(banKinh, 2) * Math.PI.toFixed(3);
+        return S;
+
+    }
+</script>
+</body>
+</html>

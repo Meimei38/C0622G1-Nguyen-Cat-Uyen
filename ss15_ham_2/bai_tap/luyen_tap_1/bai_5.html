@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5 - Tra cứu chòm sao của ngôi sao</title>
+</head>
+<body>
+<input type="text" id="name" placeholder="Nhập tên ngôi sao">
+<input type="button" value="Tra cứu" onclick="check()">
+<p id="display"></p>
+<script>
+
+    function check() {
+        let star = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus'];
+        let starSign = ['Ursa Minor', 'Taurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo'];
+        let starName = document.getElementById('name').value;
+        let i;
+        if (star.indexOf(starName) !== -1) {
+            i = star.indexOf(starName);
+            result = starSign[i];
+
+        } else {
+            result = 'Không tìm thấy ngôi sao này';
+        }
+        document.getElementById('display').innerHTML = result;
+
+    }
+</script>
+</body>
+</html>
