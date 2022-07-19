@@ -20,25 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05d56e4a-488d-4855-b395-2d7cbc339c11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/bai_tap/doi_tu_met_sang_feet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/bai_tap/ham_kiem_tra_so_nguyen_to.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/bai_tap/luyen_tap_1/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/bai_tap/luyen_tap_1/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/bai_tap/luyen_tap_1/bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/bai_tap/luyen_tap_1/bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/bai_tap/luyen_tap_1/bai_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/bai_tap/luyen_tap_2/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/bai_tap/luyen_tap_2/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/bai_tap/luyen_tap_2/bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/bai_tap/luyen_tap_2/bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/bai_tap/luyen_tap_2/bai_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/bai_tap/luyen_tap_2/bai_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/bai_tap/luyen_tap_2/bai_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/bai_tap/luyen_tap_2/bai_8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/bai_tap/luyen_tap_2/bai_9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/bai_tap/ung_dung_quan_ly_san_pham.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15_ham_2/bai_tap/kiem_tra_tu_doi_xung.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16_lap_trinh_huong_doi_tuong_1/bai_tap/mo_ta_temperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16_lap_trinh_huong_doi_tuong_1/bai_tap/xay_dung_lop_mo_ta_hinh_chu_nhat.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang_2/bai_tap/bai_luyen_tap_2/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/bai_luyen_tap_2/bai_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_ham_2/bai_tap/ham_kiem_tra_so_nguyen_to.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ham_2/bai_tap/ham_kiem_tra_so_nguyen_to.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_ham_2/bai_tap/ung_dung_quan_ly_san_pham.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ham_2/bai_tap/ung_dung_quan_ly_san_pham.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +107,11 @@
       <workItem from="1657782213237" duration="20241000" />
       <workItem from="1657870239639" duration="1532000" />
       <workItem from="1657872021290" duration="3315000" />
-      <workItem from="1658050679016" duration="13577000" />
+      <workItem from="1658050679016" duration="16323000" />
+      <workItem from="1658126031574" duration="10973000" />
+      <workItem from="1658196803711" duration="254000" />
+      <workItem from="1658197372819" duration="481000" />
+      <workItem from="1658213072863" duration="6186000" />
     </task>
     <servers />
   </component>
@@ -212,9 +203,9 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="1096" y="242" key="run.anything.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1657809102748" />
-    <state x="1103" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1657809698264">
+    <state x="1103" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1658218903748">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="1103" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1657809698264" />
+    <state x="1103" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1658218903748" />
   </component>
 </project>
