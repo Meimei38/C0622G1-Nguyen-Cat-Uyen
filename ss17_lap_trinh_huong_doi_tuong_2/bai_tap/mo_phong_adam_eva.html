@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mô phỏng câu chuyện Adam và Eva</title>
+</head>
+<body>
+<script>
+    class Apple {
+        constructor(weight) {
+            this.weight = weight;
+        }
+
+        decrease() {
+            this.weight--;
+        }
+
+        isEmpty() {
+            if (this.weight === 0) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        getWeight() {
+            return this.weight;
+
+        }
+
+    }
+
+    class Human {
+        constructor(name, gender, weight) {
+            this.name = name;
+            this.gender = gender;
+            this.weight = weight;
+        }
+
+        isMale() {
+            if (this.gender === 'Male') {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        setGender(gender) {
+            this.gender = gender;
+
+        }
+
+        eat(apple) {
+            if (this.checkApple(apple)) {
+                apple.decrease();
+                this.weight++;
+            }
+        }
+
+
+        checkApple(apple) {
+            if (!apple.isEmpty()) {
+                return true;
+            } else {
+                console.log(this.getName() + ' Hết táo rồi')
+                return false;
+            }
+
+        }
+
+        getName() {
+            return this.name
+
+        }
+        say(text){
+            console.log(text);
+
+        }
+
+        setName(inputName) {
+            this.name = inputName;
+
+        }
+
+        getWeight() {
+            return this.weight;
+        }
+
+        setWeight(value) {
+            this.weight = value;
+
+        }
+
+
+    }
+
+    //Kịch bản
+    let adam=new Human('Adam','Male',50);
+    let eva=new Human('Eva','Female',50);
+    let tao=new Apple(10);
+    eva.say('Adam ăn táo đi');
+    adam.eat(tao);
+    adam.eat(tao);
+    adam.eat(tao);
+    adam.eat(tao);
+    adam.eat(tao);
+    adam.eat(tao);
+    adam.say('Eva cũng ăn táo đi');
+    eva.eat(tao);
+    eva.eat(tao);
+    eva.eat(tao);
+    eva.eat(tao);
+    eva.eat(tao);
+    console.log('Trọng lượng của Adam là: '+adam.getWeight());
+    console.log('Trọng lượng của Eva là: '+eva.getWeight());
+    console.log('Trọng lượng của quả táo là: '+tao.getWeight());
+
+
+
+</script>
+</body>
+</html>
