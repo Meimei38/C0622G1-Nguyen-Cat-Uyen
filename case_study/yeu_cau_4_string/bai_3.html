@@ -13,19 +13,29 @@ Ví dụ: s1 = "aabcc" và s2 = "adcaa", thì kết quả commonCharacterCount(s
     let str2 = "adcaa";
     let arr1 = str1.split('');
     let arr2 = str2.split('');
-    let array1 = [];
-    let array2 = [];
-    let check=false;
+    let arrC = [];
+    let check;
 
-    for (let i = 0; i <arr1.length ; i++) {
-        for (let j = 0; j <arr2.length ; j++) {
-            if(arr1.includes(arr2[i])){
+
+    for (let i = 0; i < arr1.length; i++) {
+        check = false;
+        for (let j = 0; j < arr2.length; j++) {
+            if (arr1.includes(arr2[i])) {
+                check = true;
+                break;
+
 
             }
 
         }
+        if (check === true) {
+            arrC.push(arr2[i]);
+            arr2.splice(i, 1);
 
+        }
     }
+
+    alert('Hai xâu vừa nhập có ' + arrC.length + ' kí tự chung, lần lượt là: ' + arrC.sort());
 
 </script>
 </body>
