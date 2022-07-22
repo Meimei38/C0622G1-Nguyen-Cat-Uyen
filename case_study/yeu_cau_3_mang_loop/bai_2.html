@@ -11,23 +11,51 @@ Chú ý các phần tử giống nhau chỉ tính là 1 lần xuất hiện
 Ví dụ:  A=[7,2,5,3,5,3] và B=[7,2,5,4,6,3,5,3] thì kết quả missingValue(A, B) = [4, 6]-->
 <script>
     let arrA = [7, 2, 5, 3, 5, 3];
-    let arrB = [7, 2, 5, 4, 6, 3, 5, 3];
-    let check = false;
+    let arrB = [7, 2, 5, 4, 6, 4, 3, 5, 3];
     let arrC = [];
+    //So sánh các phần tử của mảng B với mảng A
     for (let i = 0; i < arrB.length; i++) {
+        let check = false;
         for (let j = 0; j < arrA.length; j++) {
-            if (arrB[i] !== arrA[j]) {
+            if (arrB[i] === arrA[j]) {
                 check = true;
+                break;
             }
 
         }
-        if (check === true) {
-            arrC.push(arrB[i]);
+// Nếu phần tử của mảng B không xuất hiện trong mảng A:
+        if (check === false) {
+            let len = arrC.length;
+            let check2 = true;
+            for (let k = 0; k <= len; k++) {//kiểm tra xem phần tử của mảng B này đã có trong mảng C chưa
+                if (arrB[i] === arrC[k]) {
+                    check2 = false;
+                    break;
+                }
+            }
+            if (check2 === true) {//Nếu chưa thì mới push phần tử này vào mảng C
+                arrC.push(arrB[i]);
+            }
         }
 
     }
 
-    document.write(arrC)
+    //sắp xếp mảng C
+    for (let i = 0; i < arrC.length; i++) {
+        for (let j = i + 1; j < arrC.length; j++) {
+            if (arrC[i] > arrC[j]) {
+                let bien = arrC[i];
+                arrC[i] = arrC[j];
+                arrC[j] = bien;
+            }
+
+
+        }
+
+    }
+
+    console.log(arrC);
+
 
 </script>
 </body>

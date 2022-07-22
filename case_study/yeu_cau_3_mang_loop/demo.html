@@ -6,22 +6,10 @@
 </head>
 <body>
 <script>
-    let arr = [7, 2, 5, 3, 5, 3];
-    let num = 5;
-    count = '';
-    result = true;
-    for (let i = 0; i < arr.length; i++) {
-        if (num !== arr[i]) {
-            result = true;
-        }
-
-    }
-
-    if (result === true) {
-        count+=num;
-        document.write(count);
-    }
-
+    let thuTuMon=+prompt('Nhập số thứ tự của món muốn gọi: ');
+    arrGia = [15000, 30000, 20000, 20000, 10000, 40000];
+    let giaTien = arrGia[thuTuMon];
+    alert(giaTien)
 
 </script>
 </body>
