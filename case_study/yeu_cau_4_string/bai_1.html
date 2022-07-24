@@ -28,8 +28,20 @@ Hàm main sử dụng các hàm này để nhập xâu ký tự từ bàn phím,
 
 
     }
+    let standardWord= arr.join('');
+    document.write(' Từ sau khi được chuẩn hóa là: '+standardWord+'</br>');
+    let words=standardWord.split(' ');
+    let maxWord=words[0];
+    let maxLength=0;
+    for (let i = 0; i <words.length ; i++) {
+        if(words[i].length>maxLength){
+            maxLength=words[i].length;
+            maxWord=words[i];
+        }
 
-    alert(arr.join(''));
+    }
+    document.write('Từ dài nhất là: '+maxWord+'</br>');
+    document.write('Số kí tự là: '+maxLength+' kí tự');
 </script>
 </body>
 </html>
