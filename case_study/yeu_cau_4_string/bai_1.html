@@ -10,7 +10,8 @@ Ví dụ tRuong    TaN   HAI => Truong Tan Hai.
 Và một hàm tìm từ dài nhất trong 1 xâu ký tự.
 Hàm main sử dụng các hàm này để nhập xâu ký tự từ bàn phím, in ra xâu trước và sau khi chuẩn hóa, 1 từ dài nhất trong xâu đó.-->
 <script>
-    str = 'tRuong    TaN   HAI';
+    str = '  tRuong    TaN   HAI';
+    str=str.trim();
     arr = str.split('');
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] === ' ' && arr[i + 1] === ' ') {

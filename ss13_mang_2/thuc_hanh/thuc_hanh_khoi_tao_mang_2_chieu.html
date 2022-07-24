@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thực hành khởi tạo mảng 2 chiều</title>
+</head>
+<body>
+<script>
+    let matrix = [];
+    let row = prompt('Nhập số hàng của ma trận: ');
+    let column = prompt('Nhập số cột của ma trận: ');
+    for (let i = 0; i < row; i++) {
+        matrix[i] = [];
+    }
+    for (let i = 0; i < row; i++) {
+        for (let j = 0; j < column; j++) {
+            matrix[i][j] = prompt('Nhập giá trị của phần tử mảng con: ');
+
+        }
+
+    }
+    console.log(matrix);
+</script>
+</body>
+</html>
