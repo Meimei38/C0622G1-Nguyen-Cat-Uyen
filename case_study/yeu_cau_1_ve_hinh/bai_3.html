@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3 - vẽ tam giác vuông cân đặc</title>
+</head>
+<body>
+<!--Vẽ tam giác cân đặc có chiều cao h. Ví dụ: h = 5-->
+<script>
+    let h = 5;
+    let length = h;
+    for (let i = 1; i <= h; i++) {
+        for (let j = 0; j < h * 2; j++) {
+            if (j > h - i && j < h + i) {
+                document.write('*');
+            } else {
+                document.write('&nbsp;&nbsp;')
+            }
+
+        }
+        document.write('</br>');
+    }
+</script>
+</body>
+</html>
