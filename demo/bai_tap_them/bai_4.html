@@ -83,15 +83,12 @@
     display();
 
     function display() {
-        arr.sort(function sort(a, b) {
-            let sortArr = [a.gia, b.gia];
-            sortArr.sort();
-            if (sortArr.indexOf(a.gia) === 1) {
+        arr.sort(function sort(a,b) {
+            if (a.gia>b.gia) {
                 return 1;
             } else {
                 return -1;
             }
-
 
         })
         let tableString = '<table border="1">';
