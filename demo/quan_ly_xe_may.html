@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý xe máy</title>
+    <style>
+        .width {
+            width: 150px;
+        }
+
+        #maMay, h2, table, .search {
+            margin-left: 30px
+        }
+
+        .button1 {
+            width: 50px;
+
+        }
+
+
+    </style>
+</head>
+<body>
+<h2> Quản lý xe máy</h2><br>
+<input type=text placeholder="Nhập Biển kiểm soát" id="bienKiemSoat">
+<input type=text placeholder="Nhập Chủ sở hữu" id="chuSoHuu">
+<input type=text placeholder="Nhập loại xe" id="loaiXe">
+<button class="button1" onclick="add()"> Thêm</button>
+<br><br>
+<input class="search" type=text placeholder="Tìm kiếm" id="timKiem">
+<button class="button2" onclick="search()"> Tìm kiếm</button>
+<br><br>
+<br><br>
+
+<p id="display"></p><br>
+<p id="searchDisplay"></p>
+
+
+<script>
+    class XeMay {
+        constructor(bienKiemSoat, chuSoHuu, loaiXe) {
+            this.maSo = bienKiemSoat;
+            this.chuSoHuu = chuSoHuu;
+            this.loaiXe = loaiXe;
+        }
+
+        getBienKiemSoat() {
+            return this.maSo;
+
+        }
+
+        setBienKiemSoat(bienKiemSoat) {
+            this.maSo = bienKiemSoat;
+        }
+
+        getChuSoHuu() {
+            return this.chuSoHuu;
+
+        }
+
+        setChuSoHuu(chuSoHuu) {
+            this.chuSoHuu = chuSoHuu;
+
+        }
+
+        getLoaiXe() {
+            return this.loaiXe;
+
+        }
+
+        setLoaiXe(loaiXe) {
+            this.loaiXe = loaiXe;
+        }
+    }
+
+    let arr = [];
+    display();
+
+    function display() {
+        arr.sort(function sort(a, b) {
+            let sortArr = [a.chuSoHuu, b.chuSoHuu];
+            sortArr.sort();
+            if (sortArr.indexOf(a.chuSoHuu) === 1) {
+                return 1;
+            } else {
+                return -1;
+            }
+
+
+        })
+        let tableString = '<table border="1">';
+
+        tableString += ' <tr>\n' +
+            '        <th style="width: 80px"> Số thứ tự</th>\n' +
+            '        <th class="width"> Biển kiểm soát</th>\n' +
+            '        <th class="width"> Chủ sở hữu</th>\n' +
+            '        <th class="width"> Loại xe</th>\n' +
+            '    </tr>';
+        for (let i = 0; i < arr.length; i++) {
+            tableString += '<tr>\n' +
+                '        <td>' + (i + 1) + '</td>\n' +
+                '        <td>' + arr[i].bienKiemSoat + '</td>\n' +
+                '        <td>' + arr[i].chuSoHuu + '</td>\n' +
+                '        <td>' + arr[i].loaiXe + '</td>\n' +
+                '<td colspan="2">' + '<button onclick="edit(' + i + ')"> Edit </button>' + '<td>' +
+                '<button onclick="remove(' + i + ')"> Delete </button>' + '</td>' +
+                '    </tr>'
+
+        }
+
+        tableString += '</table>';
+        document.getElementById('display').innerHTML = tableString;
+    }
+
+    function add() {
+        let bienSo = document.getElementById('maMay').value;
+        let chuXe = document.getElementById('chuSoHuu').value;
+        let hangXe = document.getElementById('loaiXe').value;
+        if (bienSo === '' || chuXe === '' || hangXe === '') {
+            alert('Vui lòng nhập đủ các thông tin!');
+        } else {
+            let xeMoi = new XeMay(bienSo, chuXe, hangXe);
+            arr.push(xeMoi);
+            document.getElementById('maMay').value = '';
+            document.getElementById('chuSoHuu').value = '';
+            document.getElementById('loaiXe').value = '';
+            document.getElementById('searchDisplay').innerHTML = '';
+            document.getElementById('timKiem').value='';
+            display();
+
+
+        }
+
+
+    }
+
+    function edit(index) {
+        let luaChon = 0;
+        do {
+            luaChon = +prompt('Chọn số để tiến hành chỉnh sửa: \n 1. Chỉnh sửa biển kiểm soát: ' +
+                '\n 2. Chỉnh sửa chủ sở hữu \n 3. Chỉnh sửa loại xe \n 4. Thoát chỉnh sửa');
+            if (luaChon === 1) {
+                let bienSoMoi;
+                do {
+                    bienSoMoi = prompt('Nhập biển số mới: ');
+                    if (bienSoMoi === '' || bienSoMoi === null) {
+                        alert('Vui lòng nhập biển số xe mới!');
+
+                    }
+
+                } while (bienSoMoi === '' || bienSoMoi === null);
+                arr[index].setBienKiemSoat(bienSoMoi);
+
+            }
+            if (luaChon === 2) {
+                let chuMoi;
+                do {
+                    chuMoi = prompt('Nhập tên chủ sở hữu mới: ');
+                    if (chuMoi === '' || chuMoi === null) {
+                        alert('Vui lòng nhập chủ xe mới!');
+                    }
+
+                } while (chuMoi === '' || chuMoi === null);
+                arr[index].setChuSoHuu(chuMoi);
+            }
+            if (luaChon === 3) {
+                let loaiXeMoi;
+                do {
+                    loaiXeMoi = prompt('Nhập tên loại xe mới: ');
+                    if (loaiXeMoi === '' || loaiXeMoi === null) {
+                        alert('Vui lòng nhập loại xe mới!');
+                    }
+                } while (loaiXeMoi === '' || loaiXeMoi === null);
+                arr[index].setLoaiXe(loaiXeMoi);
+            }
+        } while (luaChon !== 4)
+        display();
+        searchDisplay();
+        search();
+
+
+    }
+
+    function remove(index) {
+        let chonXoa = confirm('Bạn muốn xóa xe có biển kiểm soát ' + arr[index].bienKiemSoat + ' ?');
+        if (chonXoa) {
+            arr.splice(index, 1);
+            display();
+            searchDisplay();
+            search();
+        }
+
+    }
+
+    let ketQua = [];
+
+    function search() {
+        ketQua = [];
+
+        let thongTin = document.getElementById('timKiem').value;
+        if (thongTin === '') {
+            document.getElementById('searchDisplay').innerHTML = 'Vui lòng nhập thông tin cần tìm';
+        } else {
+            for (let i = 0; i < arr.length; i++) {
+                if (arr[i].getChuSoHuu() === thongTin || arr[i].getLoaiXe() === thongTin) {
+                    ketQua.push(arr[i]);
+                    searchDisplay()
+                } else {
+                    document.getElementById('searchDisplay').innerHTML = 'Không có thông tin bạn cần tìm';
+                }
+            }
+
+        }
+        document.getElementById('timKiem').value=onreset;
+    }
+
+    function searchDisplay() {
+
+        let tableString = '<table border="1">';
+
+        tableString += ' <tr>\n' +
+            '        <th style="width: 80px"> Số thứ tự</th>\n' +
+            '        <th class="width"> Biển kiểm soát</th>\n' +
+            '        <th class="width"> Chủ sở hữu</th>\n' +
+            '        <th class="width"> Loại xe</th>\n' +
+            '    </tr>';
+        for (let i = 0; i < ketQua.length; i++) {
+            tableString += '<tr>\n' +
+                '        <td>' + (i + 1) + '</td>\n' +
+                '        <td>' + ketQua[i].bienKiemSoat + '</td>\n' +
+                '        <td>' + ketQua[i].chuSoHuu + '</td>\n' +
+                '        <td>' + ketQua[i].loaiXe + '</td>\n' +
+                '    </tr>'
+
+        }
+
+        tableString += '</table>';
+        document.getElementById('searchDisplay').innerHTML = tableString;
+    }
+</script>
+</body>
+</html>

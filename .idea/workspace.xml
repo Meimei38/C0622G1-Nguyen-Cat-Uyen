@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05d56e4a-488d-4855-b395-2d7cbc339c11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/case_study/yeu_cau_6_oop/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/yeu_cau_6_oop/xo_so_may_man.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/bai_tap_them/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/bai_tap_them/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/bai_tap_them/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/bai_tap_them/bai_4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_1_ve_hinh/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_1_ve_hinh/bai_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_1_ve_hinh/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_1_ve_hinh/bai_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/demo.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,17 +60,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\P1\codegym\module 1\case_study\yeu_cau_6_oop" />
       <recent name="E:\P1\codegym\module 1\ss10_cau_truc_lap_1\bai_tap" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.demo.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.bai_2.html">
     <configuration name="bai_2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module 1/case_study/yeu_cau_3_mang_loop/bai_2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="demo.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module 1/case_study/demo.html" useBuiltInWebServerPort="true">
+    <configuration name="demo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module 1/ss9_cau_dieu_kien_2/demo.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="demo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module 1/ss9_cau_dieu_kien_2/demo.html" useBuiltInWebServerPort="true">
+    <configuration name="demo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module 1/case_study/yeu_cau_6_oop/demo.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="su_dung_vong_lap_long_nhau.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module 1/ss10_cau_truc_lap_1/thuc_hanh/su_dung_vong_lap_long_nhau.html" useBuiltInWebServerPort="true">
@@ -76,7 +82,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.demo.html (1)" />
         <item itemvalue="JavaScript Debug.bai_2.html" />
         <item itemvalue="JavaScript Debug.xac_dinh_tan_so_xuat_hien_cua_so_nguyen_trong_mang.html" />
         <item itemvalue="JavaScript Debug.su_dung_vong_lap_long_nhau.html" />
@@ -129,6 +134,11 @@
       <workItem from="1658656648854" duration="16211000" />
       <workItem from="1658687536062" duration="9000" />
       <workItem from="1658687640207" duration="41000" />
+      <workItem from="1658687878903" duration="705000" />
+      <workItem from="1658713623886" duration="642000" />
+      <workItem from="1658730820604" duration="19719000" />
+      <workItem from="1658806568143" duration="26800000" />
+      <workItem from="1658849004807" duration="2628000" />
     </task>
     <servers />
   </component>
@@ -216,13 +226,13 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1899" height="344" key="GridCell.Tab.3.right/0.0.1920.1032@0.0.1920.1032" timestamp="1658687225901" />
-    <state x="1096" y="242" key="run.anything.popup" timestamp="1658654244022">
+    <state x="1096" y="242" key="run.anything.popup" timestamp="1658844680322">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="1096" y="242" key="run.anything.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1658654244022" />
-    <state x="1103" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1658654426181">
+    <state x="1096" y="242" key="run.anything.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1658844680322" />
+    <state x="1103" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1658820614111">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="1103" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1658654426181" />
+    <state x="1103" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1658820614111" />
   </component>
 </project>

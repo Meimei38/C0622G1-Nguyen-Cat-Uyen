@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2 - Đếm ký tự in hoa, ký tự in thường </title>
+</head>
+<body>
+<!--
+Viết hàm có tham số truyền vào là một chuỗi các ký tự.Hàm thực hiện đếm số lượng ký tự in Hoa và cố ký tự in thường
+Ví dụ:   HellOCodeym => kết quả trả về : [3,8]=> 3: ký tự in hoa, 8 ký tự thường
+Nếu là chuỗi rỗng “” => thì trả về một mảng [0,0]
+
+Lưu ý : không tính ký tự khoảng trắng cách;
+-->
+<script>
+    function kiemTra(str) {
+        let upper = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', ' Z'];
+        let countUpper = 0;
+        let countLower = 0;
+        let arr = [];
+
+        for (let i = 0; i < str.length; i++) {
+            if (str[i] !== ' ') {
+                arr.push(str[i]);
+            }
+
+        }
+        if (arr.length === 0) {
+            document.write([0, 0]);
+        } else {
+            for (let i = 0; i < arr.length; i++) {
+                if (upper.includes(arr[i])) {
+                    countUpper++;
+                } else {
+                    countLower++;
+                }
+
+            }
+            document.write('Số ký tự in hoa trong chuỗi là: ' + countUpper + '</br>');
+            document.write('Số ký tự in thường trong chuỗi là: ' + countLower + '</br>');
+
+        }
+
+
+    }
+
+    let string = prompt('Nhập chuỗi: ');
+    kiemTra(string);
+
+
+</script>
+</body>
+</html>

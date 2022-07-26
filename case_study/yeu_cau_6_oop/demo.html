@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .buttons{
+            width: 100px;
+            height: 50px;
+            border-radius: 50px;
+            background-color: powderblue;
+            transition: background-color 0.5s;
+        }
+        .buttons:hover{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+<h1>
+    Xổ Số Code Gym
+</h1>
+<p id="showXoSo">
+
+</p>
+</body>
+<script>
+    let bought = 0;
+    class HeThong {
+        constructor() {
+            this.maSoTrung = [];
+            this.giaiThuong = [];
+            this.cachMuaSo = 1;
+            this.soLuaChon = [
+                ["","" ,"" ,"" ,"" ,"" ],
+                ["","" ,"" ,"" ,"" ,"" ],
+                ["","" ,"" ,"" ,"" ,"" ],
+                ["","" ,"" ,"" ,"" ,"" ]
+            ];
+        }
+
+        getMaSoTrung() {
+            return this.maSoTrung;
+        }
+
+        setMaSoTrung() {
+            // this.maSoTrung = ["12","34","56","78","90","10"];
+            this.maSoTrung=[]
+            for (let i = 0; i < 6; i++) {
+                this.maSoTrung.push(Math.round(Math.random()*99));
+            }
+            console.log(this.maSoTrung);
+        }
+
+        getGiaiThuong() {
+            return this.giaiThuong;
+        }
+
+        setGiaiThuong(giai1, giai2, giai3) {
+            this.giaiThuong = [giai1, giai2, giai3];
+        }
+
+        setTuyChon() {
+            if (bought < 4) {
+                this.cachMuaSo = +prompt("Bạn có 2 lựa chọn\n1.Bạn muốn tự chọn số\n" + "2.Hệ thống tự chọn số");
+                if (this.cachMuaSo === 2) {
+                    for (let i = 0; i < 6; i++) {
+                        this.soLuaChon[bought][i] = Math.floor(Math.random() * 100);
+                    }
+                    this.getHienthi();
+                    this.setHienThi();
+                    bought++
+                } else {
+                    this.getHienthi();
+                    this.setHienThi();
+                    return this.cachMuaSo;
+                }
+            }else{
+                alert("Bạn đã mua số vé tối đa!");
+            }
+        }
+
+        getSoLuaChon() {
+            return this.soLuaChon;
+        }
+        checkKetQua(){
+            let dem = [];
+            for (let j = 0; j < 4; j++) {
+                dem.push(0);
+                for (let i = 5; i >= 0 ; i--) {
+                    if (this.maSoTrung[i] == this.soLuaChon[j][i]){
+                        dem[j] += 1;
+                    }else{
+                        break;
+                    }
+                }
+            }
+            console.log(dem);
+            switch (true) {
+                case dem.includes(6):
+                    alert(" Trúng giải nhất, giải thưởng là: " + this.giaiThuong[0]);
+                    break;
+                case dem.includes(5):
+                    alert(" Trúng giải nhi, giải thưởng là: " + this.giaiThuong[1]);
+                    break;
+                case dem.includes(4):
+                    alert(" Trúng giải ba, giải thưởng là: " + this.giaiThuong[2]);
+                    break;
+                default:
+                    alert("không trúng giải");
+            }
+        }
+
+        getHienthi() {
+            let showInfo = "";
+            showInfo = "<table>";
+            for (let line = 0; line < 4; line++) {
+                showInfo += "<tr>";
+                for (let i = 0; i < 6; i++) {
+                    showInfo += ' <td><input style="width: 60px; height: 60px; font-size: 30px; border-radius: 60px" type="button" value="' + this.soLuaChon[line][i] + '" onclick="chonSo(' + i + ',' + line + ')"></td>';
+                }
+                showInfo += "</tr>";
+            }
+            showInfo += '<tr><td colspan="6"><button class="buttons" type="button" onclick="muaVe()">Mua vé</button>';
+            showInfo += '<button class="buttons" type="button" onclick="xemketqua()">Xem kết quả</button></td>' + '</tr></table>';
+            return showInfo;
+        }
+
+        setHienThi() {
+            document.getElementById("showXoSo").innerHTML = this.getHienthi();
+        }
+
+        chonSoNguoiChoi(index, index2) {
+            if (this.cachMuaSo===1) {
+                this.soLuaChon[index2][index] = prompt("nhập số");
+            }
+            if (!this.soLuaChon[index2].includes('')){
+                bought++;
+            }
+            this.getHienthi();
+            this.setHienThi();
+        }
+    }
+
+    class NguoiChoi {
+        constructor(heThong) {
+            this.heThong = heThong;
+        }
+
+        luaChonMuaSo() {
+            this.heThong.setTuyChon();
+        }
+
+        chonMaSo(index,index2) {
+            this.heThong.chonSoNguoiChoi(index,index2);
+        }
+        xemKetQua(){
+            this.heThong.checkKetQua();
+        }
+    }
+
+    let hethong = new HeThong();
+    let nguoiChoi = new NguoiChoi(hethong);
+    hethong.setHienThi();
+    hethong.setMaSoTrung();
+    hethong.setGiaiThuong("100 triệu","50 triệu", "20 triệu");
+    function chonSo(index, index2) {
+        if (index2 > bought) {
+            alert("Vui lòng hãy chọn số ở vé thứ "+(bought+1)+"!")
+        }else{
+            nguoiChoi.chonMaSo(index, index2);
+        }
+    }
+
+    function muaVe() {
+        nguoiChoi.luaChonMuaSo();
+    }
+    function xemketqua() {
+        nguoiChoi.xemKetQua();
+    }
+
+</script>
+</html>

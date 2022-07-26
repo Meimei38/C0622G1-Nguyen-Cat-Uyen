@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3 - In các số fibonacci trong mảng </title>
+</head>
+<body>
+<!--
+Viết hàm có tham số truyền vào là một mảng ,tìm các số fibonacci có trong mảng(số này đã làm bài tập ở jame).
+Hàm trả về 1 mảng số fibonacci được tìm thấy trong mảng ( Yêu cầu sắp xếp tăng dần).
+Gợi ý đây là dãy số fibonacci: 0,1,1,2,3,5,8,13,21,…..
+-->
+
+<script>
+    function inSoFibonacci(arr) {
+        // Tìm số lớn nhất trong mảng
+
+        let max = arr[0];
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+        }
+        // Tạo mảng chứa dãy số Fibonacci
+        let arrFibonacci = [];
+
+        let soThu1 = 0;
+        let soThu2 = 1;
+        let soTiepTheo = 1;
+        for (let i = 0; i < max; i++) {
+            arrFibonacci.push(soThu1);
+            soTiepTheo = soThu1 + soThu2
+            soThu1 = soThu2;
+            soThu2 = soTiepTheo;
+        }
+
+        // In ra và sắp xếp tăng dần các số fibonacci trong mảng nhập vào
+        let ketQua = [];
+        for (let i = 0; i < arr.length; i++) {
+            if (arrFibonacci.includes(arr[i])) {
+                ketQua.push(arr[i]);
+
+            }
+
+        }
+        ketQua.sort(function (a, b) {
+            return a - b;
+
+        })
+        document.write('Các số fibonacci được tìm thấy trong mảng là: ' + ketQua);
+
+    }
+
+    array = [1, 5, 6, 13, 9, 12, 8, 0, 5, 1];
+    inSoFibonacci(array);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy tính</title>
+    <style>
+        .width {
+            width: 150px;
+        }
+
+        #maMay, h2, table, .search {
+            margin-left: 30px
+        }
+
+        .button1 {
+            width: 50px;
+
+        }
+
+
+    </style>
+</head>
+<body>
+<h2> Quản lý máy tính</h2><br>
+<input type=text placeholder="Nhập mã máy" id="maMay">
+<input type=text placeholder="Nhập Tên máy" id="tenMay">
+<input type=text placeholder="Nhập Tên hãng sản xuất" id="tenHang">
+<input type=text placeholder="Nhập Giá bán" id="giaBan">
+<button class="button1" onclick="add()"> Thêm</button>
+<br><br>
+
+<p id="display"></p><br>
+
+
+<script>
+    class MayTinh {
+        constructor(maSoMay, tenMay, hangSanXuat, gia) {
+            this.maSoMay = maSoMay;
+            this.tenMay = tenMay;
+            this.hangSanXuat = hangSanXuat;
+            this.gia = gia;
+        }
+
+        getMaSoMay() {
+            return this.maSoMay;
+
+        }
+
+        setMaSoMay(maSo) {
+            this.maSoMay = maSo;
+        }
+
+        gettenMay() {
+            return this.tenMay;
+
+        }
+
+        settenMay(ten) {
+            this.tenMay = ten;
+
+        }
+
+        gethangSanXuat() {
+            return this.hangSanXuat;
+
+        }
+
+        setHangSanXuat(tenHang) {
+            this.hangSanXuat = tenHang;
+        }
+
+        getgiaBan() {
+            return this.gia;
+
+        }
+
+        setGiaBan(giaBan) {
+            this.gia = giaBan;
+        }
+    }
+
+    let arr = [];
+    display();
+
+    function display() {
+        arr.sort(function sort(a, b) {
+            let sortArr = [a.gia, b.gia];
+            sortArr.sort();
+            if (sortArr.indexOf(a.gia) === 1) {
+                return 1;
+            } else {
+                return -1;
+            }
+
+
+        })
+        let tableString = '<table border="1">';
+
+        tableString += ' <tr>\n' +
+            '        <th style="width: 80px"> Số thứ tự</th>\n' +
+            '        <th class="width"> Mã số máy</th>\n' +
+            '        <th class="width"> Tên máy</th>\n' +
+            '        <th class="width"> Hãng sản xuất</th>\n' +
+            '        <th class="width"> Giá bán</th>\n' +
+            '    </tr>';
+        for (let i = 0; i < arr.length; i++) {
+            tableString += '<tr>\n' +
+                '        <td>' + (i + 1) + '</td>\n' +
+                '        <td>' + arr[i].maSoMay + '</td>\n' +
+                '        <td>' + arr[i].tenMay + '</td>\n' +
+                '        <td>' + arr[i].hangSanXuat + '</td>\n' +
+                '        <td>' + arr[i].gia + '</td>\n' +
+                '    </tr>'
+
+        }
+
+        tableString += '</table>';
+        document.getElementById('display').innerHTML = tableString;
+    }
+
+    function add() {
+        let maSo = document.getElementById('maMay').value;
+        let tenMay = document.getElementById('tenMay').value;
+        let tenHang = document.getElementById('tenHang').value;
+        let giaBan = document.getElementById('giaBan').value;
+        if (maSo === '' || tenMay === '' || tenHang === '' || giaBan === '') {
+            alert('Vui lòng nhập đủ các thông tin!');
+        } else {
+            let mayMoi = new MayTinh(maSo, tenMay, tenHang, giaBan);
+            arr.push(mayMoi);
+            document.getElementById('maMay').value = '';
+            document.getElementById('tenMay').value = '';
+            document.getElementById('tenHang').value = '';
+            document.getElementById('giaBan').value = '';
+            display();
+
+
+        }
+
+
+    }
+</script>
+</body>
+</html>

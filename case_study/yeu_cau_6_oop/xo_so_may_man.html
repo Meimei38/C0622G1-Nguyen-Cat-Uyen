@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng xổ số</title>
+</head>
+<body>
+<script>
+    class HeThong {
+        constructor(daySoRandom, daySoThuong, luaChonMuaVe, giaiThuong) {
+            this.daySoRandom = daySoRandom;
+            this.daySoThuong = daySoThuong;
+            this.luaChonMuaVe = luaChonMuaVe;
+            this.giaiThuong = giaiThuong;
+
+        }
+
+        randomVeSo() {
+            this.daySoRandom = [];
+            for (let i = 0; i < 6; i++) {
+                let number = Math.floor(Math.random() * 10);
+                this.daySoRandom.push(number);
+
+            }
+            return this.daySoRandom;
+        }
+
+        lapDaySoTrungThuong() {
+            this.daySoThuong = [];
+            for (let i = 0; i < 6; i++) {
+                let num = Math.floor(Math.random() * 10);
+                this.daySoThuong.push(num);
+
+            }
+            return this.daySoThuong;
+
+
+        }
+
+        setGiaiThuong(giai1, giai2, giai3) {
+            this.giaiThuong = [giai1, giai2, giai3];
+        }
+
+        kiemThuong(veSo) {
+            this.lapDaySoTrungThuong();
+            let arr = [];
+            for (let i = 5; i < this.daySoThuong.length; i--) {
+                if (veSo[i] === this.daySoThuong[i]) {
+                    arr.push(veSo[i]);
+                }
+
+            }
+
+
+        }
+
+    }
+
+</script>
+</body>
+</html>

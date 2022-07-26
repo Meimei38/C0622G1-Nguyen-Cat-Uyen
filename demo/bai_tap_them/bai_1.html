@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1 - Tổng số vị trí chẵn trừ lẻ</title>
+</head>
+<body>
+<!--Nhập từ bàn phím mảng số nguyên gồm n phần tử (n<=50). Hiển thị ra màn hình danh sách các phần tử của mảng,
+Hiện thị giá trị = tổng các số ở vị trí chắn – tổng các số ở vị trí lẻ
+Ví dụ: [15,2,3,5,10,15,7]. Kết quả sau khi thực hiện là: (15+3+10+7)-(2+5+15) = ?-->
+<script>
+    let soPhanTu;
+    //Điều kiện để số phần tử trong mảng <=50
+    do {
+        soPhanTu = +prompt('Nhập số phần tử của mảng: ');
+        if (soPhanTu > 50) {
+            alert('Số phần tử của mảng không được lớn hơn 50. Vui lòng nhập lại');
+        }
+    } while (soPhanTu > 50);
+
+    //Nhập các phần tử từ bàn phím và in ra màn hình mảng vừa nhập
+    let arr = [];
+    for (let i = 0; i < soPhanTu; i++) {
+        let number = +prompt('Nhập vào một số nguyên: ');
+        arr.push(number);
+    }
+    alert('Mảng bạn vừa nhập là: ' + arr);
+    //Tính và in ra màn hình giá trị = tổng các số ở vị trí chắn – tổng các số ở vị trí lẻ
+    let tongChan = 0;
+    let tongLe = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (i % 2 === 0) {
+            tongChan += arr[i];
+        } else {
+            tongLe += arr[i];
+        }
+
+    }
+    alert('Giá trị tổng các số ở vị trí chẵn – tổng các số ở vị trí lẻ là: ' + (tongChan - tongLe));
+
+</script>
+
+</body>
+</html>
