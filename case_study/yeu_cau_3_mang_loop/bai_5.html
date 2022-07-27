@@ -27,16 +27,30 @@ Sử dụng vòng lặp do while lặp lại cho người dùng đặt thức u�
     let tongBill = 0;
     do {
         alert('1. Cafe: 15000đ \n2. Cam vắt: 30000đ \n3. Nước ép cà rốt: 20000đ \n4. Nước ép cà chua: 20000đ \n5. Nước lọc: 10000đ \n6. Nước dừa: 40000đ \n7. Thoát gọi món');
-        nhap = +prompt('Nhập số thứ tự của món muốn gọi: ');
+
+        do {
+            nhap = +prompt('Nhập số thứ tự của món muốn gọi: ');
+            if (isNaN(nhap) || nhap <= 0 || nhap > 7 || nhap - parseInt(nhap) !== 0) {
+                alert('Vui lòng nhập lại');
+            }
+
+        } while ((isNaN(nhap)) || nhap <= 0 || nhap > 7 || nhap - parseInt(nhap) !== 0)
+
         if (nhap === 7) {
             break;
         }
         order.push(nhap - 1);
         alert(arrMon[nhap - 1] + ' có giá là: ' + arrGia[nhap - 1]);
-        let soLuong = prompt('Nhập số lượng món: ');
+        let soLuong;
+        do {
+            soLuong = +prompt('Nhập số lượng món: ');
+            if (isNaN(soLuong) || soLuong - parseInt(soLuong) !== 0) {
+                alert('Vui lòng nhập lại số lượng')
+            }
+        } while (isNaN(soLuong) || soLuong - parseInt(soLuong) !== 0);
         quantity.push(soLuong);
         tongBill += soLuong * arrGia[nhap - 1];
-    } while (nhap !== 7)
+    } while (nhap !== 7);
     document.write('Đơn hàng của bạn gồm: ' + '</br>')
     for (let i = 0; i < order.length; i++) {
         document.write(quantity[i] + ' x ' + arrMon[order[i]] + '</br>');
