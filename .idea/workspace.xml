@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,9 +23,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05d56e4a-488d-4855-b395-2d7cbc339c11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/algorithm/chuan_hoa_chuoi/chuan_hoa_chuoi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_test/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_test/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_test/bai_3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_3_mang_loop/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_3_mang_loop/bai_5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/bai_tap_them/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/bai_tap_them/bai_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_1_ve_hinh/bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_1_ve_hinh/bai_1_ve_hcn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_1_ve_hinh/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_1_ve_hinh/bai_2_ve_hcn_rong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_1_ve_hinh/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_1_ve_hinh/bai_3_ve_tam_giac_can_dac.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_1_ve_hinh/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_1_ve_hinh/bai_4_ve_tam_giac_can_rong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_2_if_switch_case/bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_2_if_switch_case/bai_1_tinh_thue_luong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_2_if_switch_case/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_2_if_switch_case/bai_2_kiem_tra_nguyen_am_phu_am.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_4_string/bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_4_string/bai_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/bai_tap_them/bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/bai_tap_them/bai_1_tong_vi_tri_chan_tru_le.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/bai_tap_them/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/bai_tap_them/bai_2_dem_ky_tu_in_thuong_hoa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/bai_tap_them/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/bai_tap_them/bai_3_tim_fibonacci_trong_mang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/bai_tap_them/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/bai_tap_them/bai_4_danh_sach_may_tinh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/quan_ly_xe_may.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/quan_ly_xe_may.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_1/bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_1/bai_1_dem_1_100.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_1/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_1/bai_2_nhiet_do.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_1/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_1/bai_3_20_so_fibonacci.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_1/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_1/bai_4_fibonacci_chia_het_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_1/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_1/bai_5_tong_20_fibonacci.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_1/bai_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_1/bai_6_tong_30_so_chia_het_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_1/bai_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_1/bai_7_in_100_so_voi_dk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_1/bai_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_1/bai_8_game_nhap_so.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_2/bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_2/bai_1_in_fibonacci.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_2/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_2/bai_2_tinh_giai_thua.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_2/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_2/bai_3_ve_hinh_tam_giac.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_2/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_2/bai_4_ve_hcn_rong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_2/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_2/bai_5_lai_kep.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_2/bai_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap/bai_luyen_tap_2/bai_6_ve_trai_tim.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang_2/bai_tap/bai_luyen_tap_1/bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/bai_luyen_tap_1/bai_1_khoi_tao_mang_so_nguyen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang_2/bai_tap/bai_luyen_tap_1/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/bai_luyen_tap_1/bai_2_tim_max_trong_mang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang_2/bai_tap/bai_luyen_tap_1/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/bai_luyen_tap_1/bai_3_tim_trung_binh_trong_mang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang_2/bai_tap/bai_luyen_tap_1/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/bai_luyen_tap_1/bai_4_dao_vi_tri_trong_mang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang_2/bai_tap/bai_luyen_tap_1/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/bai_luyen_tap_1/bai_5_dem_nguyen_am.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang_2/bai_tap/bai_luyen_tap_1/bai_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/bai_luyen_tap_1/bai_6_tim_v.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang_2/bai_tap/bai_luyen_tap_1/bai_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/bai_luyen_tap_1/bai_7_xoa_v_khoi_mang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang_2/bai_tap/bai_luyen_tap_1/bai_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/bai_luyen_tap_1/bai_8_xep_giam_dan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang_2/bai_tap/bai_luyen_tap_1/bai_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/bai_luyen_tap_1/bai_9_hien_thi_mang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17_lap_trinh_huong_doi_tuong_2/xac_dinh_tan_so_xuat_hien_cua_so_nguyen_trong_mang.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss17_lap_trinh_huong_doi_tuong_2/xac_dinh_tan_so_xuat_hien_cua_so_nguyen_trong_mang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss5_html_form_table/thuc_hanh/tao_bang_co_ban.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss5_html_form_table/thuc_hanh/tao_bang_co_ban.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_1_kiem_tra_chia_het.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_2_tuoi_hs_10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_3_xac_dinh_am_duong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_4_tim_max.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_5_xep_hang_hoc_luc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_6_tien_hoa_hong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_1/bai_7_cuoc_dien_thoai.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_1_c_sang_f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_10.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_10_gia_dien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_11.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_11_thue_ca_nhan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_2_m_sang_ft.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_3_dien_tich_hinh_vuong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_4_dien_tich_hinh_chu_nhat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_5_dien_tich_tam_giac_vuong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_6_giai_pt_bac_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_7_giai_pt_bac_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_8_kiem_tra_tuoi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_dieu_kien_2/bai_tap/bai_luyen_tap_2/bai_9_canh_tam_giac.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,30 +100,42 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2BKiDNUrId0Rfrn3xhk7oHHe0Ef" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/P1/codegym/module 1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\P1\codegym\module 1\case_study\yeu_cau_6_oop" />
       <recent name="E:\P1\codegym\module 1\ss10_cau_truc_lap_1\bai_tap" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.bai_2.html">
+  <component name="RunManager" selected="JavaScript Debug.chuan_hoa_chuoi.html">
+    <configuration name="bai_1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module 1/bai_test/bai_1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="bai_2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module 1/case_study/yeu_cau_3_mang_loop/bai_2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="demo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module 1/ss9_cau_dieu_kien_2/demo.html" useBuiltInWebServerPort="true">
+    <configuration name="chuan_hoa_chuoi.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/module 1/algorithm/chuan_hoa_chuoi/chuan_hoa_chuoi.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="demo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module 1/case_study/yeu_cau_6_oop/demo.html" useBuiltInWebServerPort="true">
@@ -77,13 +149,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.chuan_hoa_chuoi.html" />
+        <item itemvalue="JavaScript Debug.bai_1.html" />
         <item itemvalue="JavaScript Debug.bai_2.html" />
         <item itemvalue="JavaScript Debug.xac_dinh_tan_so_xuat_hien_cua_so_nguyen_trong_mang.html" />
         <item itemvalue="JavaScript Debug.su_dung_vong_lap_long_nhau.html" />
-        <item itemvalue="JavaScript Debug.demo.html" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -137,12 +211,40 @@
       <workItem from="1658851722091" duration="5000" />
       <workItem from="1658852226019" duration="1736000" />
       <workItem from="1658854147913" duration="619000" />
-      <workItem from="1658885041359" duration="3306000" />
+      <workItem from="1658885041359" duration="10962000" />
+      <workItem from="1658971715084" duration="5176000" />
+      <workItem from="1658976925005" duration="3244000" />
+      <workItem from="1658991167683" duration="206000" />
+      <workItem from="1658999871761" duration="2000" />
+      <workItem from="1659007366504" duration="3569000" />
+      <workItem from="1659097606098" duration="1190000" />
+      <workItem from="1659327468705" duration="109000" />
+      <workItem from="1659349006164" duration="78000" />
+      <workItem from="1659414261459" duration="97000" />
+      <workItem from="1659414452736" duration="632000" />
+      <workItem from="1659422443390" duration="1939000" />
+      <workItem from="1659449215997" duration="5000" />
+      <workItem from="1659518440712" duration="21000" />
+      <workItem from="1659603314137" duration="531000" />
+      <workItem from="1660727733113" duration="2754000" />
+      <workItem from="1661942211907" duration="118000" />
+      <workItem from="1663642632594" duration="180000" />
+      <workItem from="1665662934281" duration="18000" />
+      <workItem from="1665662972300" duration="85000" />
+      <workItem from="1667276927000" duration="47000" />
+      <workItem from="1667315449426" duration="110000" />
+      <workItem from="1667352944073" duration="980000" />
+      <workItem from="1668085490904" duration="310000" />
+      <workItem from="1668679213363" duration="66000" />
+      <workItem from="1668757450678" duration="647000" />
+      <workItem from="1669002359564" duration="1007000" />
+      <workItem from="1669004139095" duration="72000" />
+      <workItem from="1672755561341" duration="440000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -154,84 +256,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="740" y="271" key="FileChooserDialogImpl" timestamp="1657513974359">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="740" y="271" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1657513974359" />
-    <state width="1899" height="344" key="GridCell.Tab.0.bottom" timestamp="1658687225901">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1899" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1658687225901" />
-    <state width="1899" height="344" key="GridCell.Tab.0.center" timestamp="1658687225900">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1899" height="344" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1658687225900" />
-    <state width="1899" height="344" key="GridCell.Tab.0.left" timestamp="1658687225900">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1899" height="344" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1658687225900" />
-    <state width="1899" height="344" key="GridCell.Tab.0.right" timestamp="1658687225901">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1899" height="344" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1658687225901" />
-    <state width="1899" height="344" key="GridCell.Tab.1.bottom" timestamp="1658687225901">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1899" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1658687225901" />
-    <state width="1899" height="344" key="GridCell.Tab.1.center" timestamp="1658687225901">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1899" height="344" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1658687225901" />
-    <state width="1899" height="344" key="GridCell.Tab.1.left" timestamp="1658687225901">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1899" height="344" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1658687225901" />
-    <state width="1899" height="344" key="GridCell.Tab.1.right" timestamp="1658687225901">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1899" height="344" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1658687225901" />
-    <state width="1899" height="344" key="GridCell.Tab.2.bottom" timestamp="1658687225901">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1899" height="344" key="GridCell.Tab.2.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1658687225901" />
-    <state width="1899" height="344" key="GridCell.Tab.2.center" timestamp="1658687225901">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1899" height="344" key="GridCell.Tab.2.center/0.0.1920.1032@0.0.1920.1032" timestamp="1658687225901" />
-    <state width="1899" height="344" key="GridCell.Tab.2.left" timestamp="1658687225901">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1899" height="344" key="GridCell.Tab.2.left/0.0.1920.1032@0.0.1920.1032" timestamp="1658687225901" />
-    <state width="1899" height="344" key="GridCell.Tab.2.right" timestamp="1658687225901">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1899" height="344" key="GridCell.Tab.2.right/0.0.1920.1032@0.0.1920.1032" timestamp="1658687225901" />
-    <state width="1899" height="344" key="GridCell.Tab.3.bottom" timestamp="1658687225902">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1899" height="344" key="GridCell.Tab.3.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1658687225902" />
-    <state width="1899" height="344" key="GridCell.Tab.3.center" timestamp="1658687225901">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1899" height="344" key="GridCell.Tab.3.center/0.0.1920.1032@0.0.1920.1032" timestamp="1658687225901" />
-    <state width="1899" height="344" key="GridCell.Tab.3.left" timestamp="1658687225901">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1899" height="344" key="GridCell.Tab.3.left/0.0.1920.1032@0.0.1920.1032" timestamp="1658687225901" />
-    <state width="1899" height="344" key="GridCell.Tab.3.right" timestamp="1658687225901">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1899" height="344" key="GridCell.Tab.3.right/0.0.1920.1032@0.0.1920.1032" timestamp="1658687225901" />
-    <state x="1096" y="242" key="run.anything.popup" timestamp="1658844680322">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="1096" y="242" key="run.anything.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1658844680322" />
-    <state x="1103" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1658820614111">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="1103" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1658820614111" />
   </component>
 </project>

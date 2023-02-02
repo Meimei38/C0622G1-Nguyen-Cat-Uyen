@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2 - Kiểm tra năm nhuận</title>
+</head>
+<body>
+<script>
+    function checkFormat(str) {
+        let arr = str.split('/');
+        if (arr[0] < 0 || arr[0] > 31) {
+            return false;
+        } else if (arr[1] < 0 || arr[1] > 12) {
+            return false;
+        } else if (arr[2] < 0) {
+            return false;
+        }
+        return true;
+
+    }
+
+    function checkLeapYear(str) {
+        if (checkFormat(str)) {
+            let arr = str.split('/');
+            let year = arr[2];
+            let isLeapYear = false;
+
+
+            if (year % 4 === 0) {
+                if (year % 100 === 0) {
+                    if (year % 400 === 0) {
+                        isLeapYear = true;
+                    }
+
+                } else {
+                    isLeapYear = true;
+                }
+            }
+
+            if (isLeapYear) {
+                alert(year + ' là năm nhuận');
+            } else {
+                alert(year + ' không là năm nhuận');
+            }
+
+        } else {
+            alert('Sai định dạng, vui lòng nhập lại');
+        }
+
+
+    }
+
+    string = prompt('nhập chuỗi');
+    checkFormat(string);
+
+    checkLeapYear(string);
+</script>
+</body>
+</html>

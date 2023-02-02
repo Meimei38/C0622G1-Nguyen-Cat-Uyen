@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3 - Quản lý xe máy</title>
+</head>
+<style>
+    .width {
+        width: 150px;
+    }
+
+    .button1 {
+        width: 50px;
+
+    }
+
+
+</style>
+</head>
+<body>
+<h2> Quản lý xe máy</h2><br>
+<input type=text placeholder="Nhập Chủ sở hữu" id="chuSoHuu">
+<input type=text placeholder="Nhập chứng minh nhân dân" id="chungMinh">
+<select name="hangXe" id="loaiXe">
+    <option value="Honda" selected>Honda</option>
+    <option value="Yamaha">Yamaha</option>
+    <option value="Sym">Sym</option>
+    <option value="Piaggio">Piaggio</option>
+    <option value="Suzuki">Suzuki</option>
+    <option value="Ducati">Ducati+</option>
+    <option value="Hãng khác">Hãng khác</option>
+</select>
+<input type=text placeholder="Nhập Biển số xe" id="bienSoXe">
+<input type=text placeholder="Nhập phí xe đã đóng" id="phiXe">
+<button class="button1" onclick="add()"> Thêm</button>
+<br><br>
+
+<p id="display"></p><br>
+
+<script>
+    class XeMay {
+        constructor(chuSoHuu, chungMinh, loaiXe, bienSoXe, phiXe) {
+            this.chuSoHuu = chuSoHuu;
+            this.chungMinh = chungMinh;
+            this.loaiXe = loaiXe;
+            this.bienSoXe = bienSoXe;
+            this.phiXe = phiXe;
+        }
+
+        getBienSoXe() {
+            return this.bienSoXe;
+
+        }
+
+        setBienSoXe(bienSoXe) {
+            this.bienSoXe = bienSoXe;
+        }
+
+        getChuSoHuu() {
+            return this.chuSoHuu;
+
+        }
+
+        setChuSoHuu(chuSoHuu) {
+            this.chuSoHuu = chuSoHuu;
+
+        }
+
+        getLoaiXe() {
+            return this.loaiXe;
+
+        }
+
+        setLoaiXe(loaiXe) {
+            this.loaiXe = loaiXe;
+        }
+
+        getChungMinh() {
+            return this.chungMinh;
+
+        }
+
+        setChungMinh(chungMinh) {
+            this.chungMinh = chungMinh;
+        }
+
+        getPhixe() {
+            return this.phiXe;
+
+        }
+
+        setPhiXe(phiXe) {
+            this.phiXe = phiXe;
+        }
+    }
+
+    let arrXe = [];
+    display();
+
+    function display() {
+
+        arrXe.sort(function sort(a, b) {
+            if (a.chuSoHuu > b.chuSoHuu) {
+                return 1;
+            } else if (a.chuSoHuu < b.chuSoHuu) {
+                return -1;
+            } else {
+                return 0;
+            }
+
+        })
+        let tableString = '<table border="1">';
+
+        tableString += ' <tr>\n' +
+            '        <th style="width: 80px"> Số thứ tự</th>\n' +
+            '        <th class="width"> Họ và tên sinh viên</th>\n' +
+            '        <th class="width"> Chứng minh nhân dân</th>\n' +
+            '        <th class="width"> Hãng xe</th>\n' +
+            '        <th class="width"> Biển số xe</th>\n' +
+            '        <th class="width"> Phí gửi xe</th>\n' +
+            '    </tr>';
+        for (let i = 0; i < arrXe.length; i++) {
+            tableString += '<tr>\n' +
+                '        <td>' + (i + 1) + '</td>\n' +
+                '        <td>' + arrXe[i].chuSoHuu + '</td>\n' +
+                '        <td>' + arrXe[i].chungMinh + '</td>\n' +
+                '        <td>' + arrXe[i].loaiXe + '</td>\n' +
+                '        <td>' + arrXe[i].bienSoXe + '</td>\n' +
+                '        <td>' + arrXe[i].phiXe + '</td>\n' +
+                '<td >' + '<button onclick="remove(' + i + ')"> Delete </button>' + '</td>' +
+                '    </tr>'
+
+        }
+
+        tableString += '</table>';
+        document.getElementById('display').innerHTML = tableString;
+    }
+
+    function add() {
+        let chuXe = document.getElementById('chuSoHuu').value;
+        let chungMinhThu = document.getElementById('chungMinh').value;
+        let hangXe = document.getElementById('loaiXe').value;
+        let bienSo = document.getElementById('bienSoXe').value;
+        let phiXe = document.getElementById('phiXe').value;
+        if (bienSo === '' || chuXe === '' || hangXe === '' || chungMinhThu === '' || phiXe === '') {
+            alert('Vui lòng nhập đủ các thông tin!');
+        } else if (chuXe.length > 40 || !isNaN(chuXe) || isNaN(chungMinhThu) || isNaN(phiXe) || bienSo.length > 20) {
+            alert('Thông tin bạn nhập chưa hợp lệ \n' +
+                'Biển số xe không quá 20 ký tự\n' +
+                'Họ và tên sinh viên phải là chữ và không quá 40 ký tự\n' +
+                'Chứng minh nhân dân và Phí xe phải là 1 dãy số\n' +
+                'Vui lòng nhập lại!')
+        } else {
+            alert('Thông tin bạn nhập đã hợp lệ!')
+            let xeMoi = new XeMay(chuXe, chungMinhThu, hangXe, bienSo, phiXe);
+            arrXe.push(xeMoi);
+
+        }
+        document.getElementById('chuSoHuu').value = '';
+        document.getElementById('chungMinh').value = '';
+        document.getElementById('loaiXe').value = 'Honda';
+        document.getElementById('bienSoXe').value = '';
+        document.getElementById('phiXe').value = '';
+
+        display();
+
+    }
+
+
+    function remove(index) {
+        let chonXoa = confirm('Bạn muốn xóa xe của sinh viên ' + arrXe[index].chuSoHuu + 'có biển số xe ' + arrXe[index].bienSoXe + ' ?');
+        if (chonXoa) {
+            arrXe.splice(index, 1);
+            display();
+
+        }
+
+    }
+
+</script>
+</body>
+</html>

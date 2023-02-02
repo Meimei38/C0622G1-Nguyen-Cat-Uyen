@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1 - Kiểm tra mảng</title>
+</head>
+<body>
+<script>
+    let number;
+    //Điều kiện để số phần tử trong mảng <=50
+    do {
+        number = +prompt('Nhập số phần tử của mảng: ');
+        if (number > 50) {
+            alert('Số phần tử của mảng không được lớn hơn 50. Vui lòng nhập lại');
+        }
+    } while (number > 50);
+
+    //Nhập các phần tử từ bàn phím và in ra màn hình mảng vừa nhập
+    let arr = [];
+    for (let i = 0; i < number; i++) {
+        let input = +prompt('Nhập vào một số nguyên: ');
+        arr.push(input);
+    }
+    alert('Mảng bạn vừa nhập là: ' + arr);
+
+    //Kiểm tra mảng có phải dạng sóng không
+    let check;
+    for (let i = 1; i < arr.length - 1; i++) {
+        check = false;
+        if ((arr[i] < arr[i - 1] && arr[i] < arr[i + 1]) || (arr[i] > arr[i - 1] && arr[i] > arr[i + 1])) {
+            check = true;
+        } else {
+            check = false;
+            break;
+        }
+
+    }
+    alert(check);
+</script>
+</body>
+</html>

@@ -8,7 +8,7 @@
             width: 150px;
         }
 
-        #maMay, h2, table, .search {
+        #bienKiemSoat, h2, table, .search {
             margin-left: 30px
         }
 
@@ -39,18 +39,18 @@
 <script>
     class XeMay {
         constructor(bienKiemSoat, chuSoHuu, loaiXe) {
-            this.maSo = bienKiemSoat;
+            this.bienKiemSoat = bienKiemSoat;
             this.chuSoHuu = chuSoHuu;
             this.loaiXe = loaiXe;
         }
 
         getBienKiemSoat() {
-            return this.maSo;
+            return this.bienSoXe;
 
         }
 
         setBienKiemSoat(bienKiemSoat) {
-            this.maSo = bienKiemSoat;
+            this.bienSoXe = bienKiemSoat;
         }
 
         getChuSoHuu() {
@@ -77,15 +77,15 @@
     display();
 
     function display() {
-        arr.sort(function sort(a, b) {
-            let sortArr = [a.chuSoHuu, b.chuSoHuu];
-            sortArr.sort();
-            if (sortArr.indexOf(a.chuSoHuu) === 1) {
-                return 1;
-            } else {
-                return -1;
-            }
 
+        arr.sort(function sort(a, b) {
+            if (a.chuSoHuu > b.chuSoHuu) {
+                return 1;
+            } else if (a.chuSoHuu < b.chuSoHuu) {
+                return -1;
+            } else {
+                return 0;
+            }
 
         })
         let tableString = '<table border="1">';
@@ -113,7 +113,7 @@
     }
 
     function add() {
-        let bienSo = document.getElementById('maMay').value;
+        let bienSo = document.getElementById('bienKiemSoat').value;
         let chuXe = document.getElementById('chuSoHuu').value;
         let hangXe = document.getElementById('loaiXe').value;
         if (bienSo === '' || chuXe === '' || hangXe === '') {
@@ -121,11 +121,11 @@
         } else {
             let xeMoi = new XeMay(bienSo, chuXe, hangXe);
             arr.push(xeMoi);
-            document.getElementById('maMay').value = '';
+            document.getElementById('bienKiemSoat').value = '';
             document.getElementById('chuSoHuu').value = '';
             document.getElementById('loaiXe').value = '';
             document.getElementById('searchDisplay').innerHTML = '';
-            document.getElementById('timKiem').value='';
+            document.getElementById('timKiem').value = '';
             display();
 
 
@@ -211,7 +211,7 @@
             }
 
         }
-        document.getElementById('timKiem').value=onreset;
+        document.getElementById('timKiem').value = onreset;
     }
 
     function searchDisplay() {
